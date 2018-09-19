@@ -92,10 +92,11 @@ render() {
 
 
           <li className="menu-list-item" onClick={this.showCommunityDropdown}>
-            <div className="menu-link hasDropdown" id={`${this.state.communityDropdown ? 'dropdownActive' : ''}`} onClick={this.showCommunityDropdown} >Community</div>
+            <div className="menu-link" id={`${this.state.communityDropdown ? 'dropdownActive' : ''}`} onClick={this.showCommunityDropdown} >Community</div>
             {this.state.communityDropdown ? (
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
+
               </ul>
             ) : ( null )}
 
