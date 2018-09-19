@@ -10,7 +10,7 @@ When you are working on a task (an **issue**), assign that issue to yourself on 
 
 ##### Version Control
 
-Always make your own branch when working on a task. **Do not** work on the master branch. When you are done with the task, make a pull request and ask someone else on the team to look it over before merging it with the master branch. This is essential for preserving functionality. 
+Always make your own branch when working on a task. **Do not** work on the master branch. When you are done with the task, make a pull request and ask someone else on the team to look it over before merging it with the master branch. This is essential for preserving functionality. Once the pull request has been merged, delete the branch you used for the task.
 
 
 ## Code Organization
