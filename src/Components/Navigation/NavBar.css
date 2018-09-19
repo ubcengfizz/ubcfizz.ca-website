@@ -67,6 +67,16 @@ margin: 0 10px 0 10px;
 
 }
 
+.dropdown {
+  display: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu-list-item:hover .dropdown {
+  display: block;
+}
+
 
 
 
@@ -80,11 +90,7 @@ margin: 0 10px 0 10px;
 
 /* Dropdown Menu Styles */
 
-.dropdown {
 
-  list-style-type: none;
-  text-decoration: none;
-}
 
 .dropdown-item {
   text-align: center;
