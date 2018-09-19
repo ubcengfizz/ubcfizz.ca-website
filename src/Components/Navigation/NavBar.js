@@ -11,50 +11,6 @@ import logo from '../../Images/cog.png';
 
 class NavBar extends Component {
 
-  constructor() {
-    super();
-
-    this.state = {
-      servicesDropdown: false,
-      communityDropdown: false,
-    };
-
-    this.showServicesDropdown = this.showServicesDropdown.bind(this);
-    this.showCommunityDropdown = this.showCommunityDropdown.bind(this);
-
-    this.hideServicesDropdown = this.hideServicesDropdown.bind(this);
-    this.hideCommunityDropdown = this.hideCommunityDropdown.bind(this);
-
-  };
-
-
-  showServicesDropdown(event) {
-    event.preventDefault();
-    this.setState({ servicesDropdown: true }, () => {
-    document.addEventListener('click', this.hideServicesDropdown);
-    });
-  }
-
-  showCommunityDropdown(event) {
-    event.preventDefault();
-    this.setState({ communityDropdown: true }, () => {
-    document.addEventListener('click', this.hideCommunityDropdown);
-    });
-  }
-
-  hideServicesDropdown() {
-    this.setState({ servicesDropdown: false }, () => {
-      document.removeEventListener('click', this.hideServicesDropdown);
-    });
-  }
-
-  hideCommunityDropdown() {
-    this.setState({ communityDropdown: false }, () => {
-      document.removeEventListener('click', this.hideCommunityDropdown);
-    });
-  }
-
-
 render() {
 
   return (
@@ -85,7 +41,7 @@ render() {
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
               </ul>
-          
+
 
           </li>
 
