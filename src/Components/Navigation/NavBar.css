@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,8 +46,9 @@
 #menu-list {
   list-style-type: none;
   text-decoration: none;
-  font-family: Lantinghei SC;
-  font-size: 1.3em;
+  font-family: 'Raleway';
+  font-size: 1.55em;
+  font-weight: lighter;
 }
 
 
