@@ -1,0 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+
+  #footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: #DB4949;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Avenir Next Condensed;
+}
+
+#club-location {
+  position: absolute;
+  left: 10%;
+  margin-top: 5vh;
+
+}
+
+#footer_fizz_logo {
+  float: left;
+  display: inline;
+  height: 12vh;
+  width: 10vw;
+}
+
+#location-details {
+  float: left;
+  display: inline;
+}
+
+#copyrights {
+  position: absolute;
+  bottom: 0;
+}
+
+#contacts {
+  position: absolute;
+  right: 10%;
+  margin-top: 5vh;
+}

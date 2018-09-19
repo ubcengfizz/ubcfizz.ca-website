@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  }
+
+  .outer-container {
+  width: 100%;
+}
+
+#route-container {
+  position: absolute;
+  top: 9vh;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  z-index: 999;
+  color: #DB4949;
+  letter-spacing: 1.2px;
+
+}
+
+
+#menu-left {
+  float: left;
+  margin-left: 6%;
+  margin-top: 2vh;
+  font-family: impact;
+
+}
+
+#menu-right {
+  float:right;
+  margin-top: 3vh;
+  margin-right: 3vw;
+}
+
+#menu-list {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Lantinghei SC;
+  font-size: 1.3em;
+}
+
+
+.menu-list-item {
+    float: left;
+    margin-left: 3vw;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+#cog {
+  height: 5vh;
+  width: 2.6vw;
+  float: left;
+  display: inline;
+  margin-right: 10px;
+
+}
+
+#title {
+  float: left;
+  display: inline;
+
+  transform: scale(1, 1.1);
+  position: relative;
+  top: -5px;
+}
+
+
+.inactive {
+    color: #DB4949;
+    text-decoration: none;
+}
+
+.active-logo {
+    color: #DB4949;
+    text-decoration: none;
+  }
+
+.active {
+      color: red;
+      text-decoration: none;
+    }
