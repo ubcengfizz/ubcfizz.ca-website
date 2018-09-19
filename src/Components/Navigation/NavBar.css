@@ -39,14 +39,19 @@
   float:right;
   margin-top: 3vh;
   margin-right: 3vw;
+
 }
 
 #menu-list {
   list-style-type: none;
   text-decoration: none;
   font-family: 'Raleway';
-  font-size: 1.55em;
-  font-weight: lighter;
+  font-size: 1.4em;
+  font-weight: 300;
+  position: relative;
+  top: -5px;
+
+
 }
 
 .menu-list-item {
