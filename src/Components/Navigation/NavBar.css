@@ -78,19 +78,6 @@ margin: 0 10px 0 10px;
 }
 
 
-.hasDropdown:after {
-  content: "";
-  position: absolute;
-  top: 30%;
-
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid black;
-
-}
-
 /* Dropdown Menu Styles */
 
 .dropdown {
@@ -112,7 +99,7 @@ margin: 0 10px 0 10px;
 
 .dropdown-item:hover {
   background-color: white;
-  color: black;
+  color: #DB4949;
 
 }
 
