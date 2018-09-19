@@ -1,6 +1,6 @@
 ## Engineering Physics Student Association Website
 
-The website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
+This is a React website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
 
 Before running the application, first do npm install.
 
