@@ -2,6 +2,8 @@
 
 The website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
 
+Before running the application, first do npm install.
+
 ## Work Flow
 
 ##### Issue Distribution
