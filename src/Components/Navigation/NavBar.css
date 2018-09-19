@@ -140,6 +140,7 @@ margin: 0 10px 0 10px;
 .inactive {
     color: #DB4949;
     text-decoration: none;
+
 }
 
 .active-logo {
@@ -148,6 +149,6 @@ margin: 0 10px 0 10px;
   }
 
 .active {
-      color: red;
+      color: #DB4949;
       text-decoration: none;
     }
