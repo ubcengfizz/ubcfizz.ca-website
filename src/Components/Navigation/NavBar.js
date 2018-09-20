@@ -68,7 +68,7 @@ render() {
 
               <ul className="dropdown">
                 <li>
-                    <NavLink to="/FizzExecs" className="dropdown-item">
+                    <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
                     Fizz Execs
                     </NavLink>
                 </li>
