@@ -4,6 +4,7 @@ import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import About from '../About/About.js';
 import Footer from '../Footer/Footer.js';
+import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
 
 import logo from '../../Images/cog.png';
 
@@ -66,7 +67,11 @@ render() {
             <div className="menu-link hasDropdown">Admin</div>
 
               <ul className="dropdown">
-                <li className="dropdown-item">Testing</li>
+                <li>
+                    <NavLink to="/FizzExecs" className="dropdown-item">
+                    Fizz Execs
+                    </NavLink>
+                </li>
                 <li className="dropdown-item">Testing</li>
 
               </ul>
@@ -89,6 +94,17 @@ render() {
           () => {
             return ( <div>
               <About/>
+              <Footer/>
+            </div>
+
+            );
+          }
+        }/>
+
+        <Route path="/FizzExecs" exact strict render={
+          () => {
+            return ( <div>
+              <FizzExecs/>
               <Footer/>
             </div>
 
