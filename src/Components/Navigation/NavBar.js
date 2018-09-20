@@ -35,7 +35,9 @@ render() {
 
           <ul id="menu-list">
 
-          <li className="menu-list-item" onClick={this.showServicesDropdown}>
+
+
+          <li className="menu-list-item">
             <div className="menu-link hasDropdown">Services</div>
 
               <ul className="dropdown">
@@ -49,7 +51,7 @@ render() {
 
 
 
-          <li className="menu-list-item" onClick={this.showCommunityDropdown}>
+          <li className="menu-list-item">
             <div className="menu-link hasDropdown">Community</div>
 
               <ul className="dropdown">
@@ -61,12 +63,18 @@ render() {
           </li>
 
           <li className="menu-list-item">
-           <div className="menu-link">
-             <NavLink to="/" exact className="inactive" activeClassName="active">
-            Admin
-             </NavLink>
-           </div>
+            <div className="menu-link hasDropdown">Admin</div>
+
+              <ul className="dropdown">
+                <li className="dropdown-item">Testing</li>
+                <li className="dropdown-item">Testing</li>
+
+              </ul>
+
+
           </li>
+
+
 
 
 
