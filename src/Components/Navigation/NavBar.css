@@ -71,6 +71,7 @@ margin: 0 10px 0 10px;
   display: none;
   list-style-type: none;
   text-decoration: none;
+
 }
 
 .menu-list-item:hover .dropdown {
@@ -93,13 +94,31 @@ margin: 0 10px 0 10px;
 
 
 .dropdown-item {
+  font-size: 0.9em;
   text-align: center;
   color: white;
   padding: 6px;
-  border-top: 1px solid white;
+  border-top: 0.5px solid white;
   background-color: #DB4949;
-  transition: all .25s;
-  border-radius: 5px;
+  transition: all 0.25s;
+
+
+}
+
+.dropdown li:last-child {
+  -moz-border-radius-bottomleft: 6px;
+   -moz-border-radius-bottomright: 6px;
+
+   border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+}
+
+.dropdown li:first-child {
+  -moz-border-radius-topleft: 6px;
+   -moz-border-radius-topright: 6px;
+
+   border-top-right-radius: 6px;
+   border-top-left-radius: 6px;
 }
 
 
@@ -107,11 +126,9 @@ margin: 0 10px 0 10px;
   background-color: white;
   color: #DB4949;
 
-}
-
-#dropdownActive {
 
 }
+
 
 /* Left Menu (logo side) Styles */
 
