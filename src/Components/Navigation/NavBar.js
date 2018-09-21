@@ -5,6 +5,7 @@ import Route from 'react-router-dom/Route';
 import About from '../About/About.js';
 import Footer from '../Footer/Footer.js';
 import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
+import FAQ from '../FAQ/FAQ.js';
 import ScrollToTop from './ScrollToTop.js';
 import logo from '../../Images/cog.png';
 
@@ -38,7 +39,11 @@ render() {
           <li className="menu-list-item">
             <div className="menu-link hasDropdown">Services</div>
               <ul className="dropdown">
-                <li className="dropdown-item">Testing</li>
+                <li>
+                  <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
+                  FAQ
+                  </NavLink>
+                </li>
                 <li className="dropdown-item">Testing</li>
               </ul>
           </li>
@@ -81,6 +86,17 @@ render() {
           () => {
             return ( <div>
               <FizzExecs/>
+              <Footer/>
+            </div>
+
+            );
+          }
+        }/>
+
+        <Route path="/faq" exact strict render={
+          () => {
+            return ( <div>
+              <FAQ/>
               <Footer/>
             </div>
 
