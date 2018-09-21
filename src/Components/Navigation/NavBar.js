@@ -5,7 +5,7 @@ import Route from 'react-router-dom/Route';
 import About from '../About/About.js';
 import Footer from '../Footer/Footer.js';
 import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
-
+import ScrollToTop from './ScrollToTop.js';
 import logo from '../../Images/cog.png';
 
 
@@ -17,55 +17,41 @@ render() {
   return (
     <div>
   <Router>
+    <ScrollToTop>
+
         <div id="outer-container">
+
           <nav className="nav-bar">
 
             <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
           <div id="menu-left">
           <img alt="cog" id="cog" src={logo}/>
-
           <div id="title">
             <h2>FIZZ</h2>
             <h5>The UBC Engineering Physics Student Association</h5>
           </div>
-        </div>
-
-        </NavLink>
+          </div>
+           </NavLink>
 
         <div id="menu-right">
-
           <ul id="menu-list">
-
-
-
           <li className="menu-list-item">
             <div className="menu-link hasDropdown">Services</div>
-
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
                 <li className="dropdown-item">Testing</li>
-
               </ul>
-
-
           </li>
-
-
 
           <li className="menu-list-item">
             <div className="menu-link hasDropdown">Community</div>
-
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
-
               </ul>
-
-
           </li>
 
           <li className="menu-list-item">
             <div className="menu-link hasDropdown">Admin</div>
-
               <ul className="dropdown">
                 <li>
                     <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
@@ -73,19 +59,9 @@ render() {
                     </NavLink>
                 </li>
                 <li className="dropdown-item">Testing</li>
-
               </ul>
-
-
           </li>
-
-
-
-
-
-
         </ul>
-
         </div>
         </nav>
 
@@ -112,12 +88,9 @@ render() {
           }
         }/>
 
-
-
         </div>
-
-
         </div>
+      </ScrollToTop>
       </Router>
 
 
