@@ -7,11 +7,27 @@
   padding: 0;
 }
 
+
 .container {
   width: 100vw;
-  height: 3100px;
-  background-color: #F8F8F8;
+min-height: 3100px;
+overflow: hidden;
+ background-color: #F8F8F8;
+  z-index: 500;
+  overflow: hidden;
 }
+
+
+.description {
+  width: 70vw;
+  margin-top: 20px;
+  font-family: 'Raleway';
+  font-size: 1.4vw;
+}
+
+
+
+
 
 .text {
   width: 90vw;
@@ -24,10 +40,12 @@
 }
 
 .component-header {
-  font-size: 2.4em;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.component-title {
+  font-size: 1.3em;
+}
 
 hr {
 border-top: 1px solid #4B4343;
@@ -60,9 +78,100 @@ border-top: 1px solid #4B4343;
   font-style: italic;
 }
 
-.description {
-  width: 70vw;
-  margin-top: 20px;
-  font-family: 'Raleway';
-  font-size: 1.2em;
+
+/* Responsive Breakpoints */
+
+
+ @media screen and (max-width: 1920px) {
+
+   .container {
+     min-height: 3600px;
+     }
+  }
+
+
+@media screen and (max-width: 1566px) {
+
+.container {
+  min-height: 3250px;
+  overflow: hidden;
+ }
+   }
+
+
+ @media screen and (max-width: 1266px) {
+
+ .description {
+   font-size: 1.5vw;
+   }
 }
+
+@media screen and (max-width: 1066px) {
+
+.description {
+  font-size: 1.8vw;
+    }
+
+.container {
+  min-height: 3450px;
+  overflow: hidden;
+  }
+ }
+
+ @media screen and (max-width: 956px) {
+
+  .description {
+  font-size: 2.1vw;
+  }
+
+.container {
+   min-height: 3670px;
+   overflow: hidden;
+ }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .description {
+  font-size: 2.8vw;
+}
+
+.container {
+  min-height: 3970px;
+  overflow: hidden;
+    }
+   }
+
+
+@media screen and (max-width: 600px) {
+
+
+.container {
+   min-height: 3970px;
+   overflow: hidden;
+     }
+
+  }
+
+  @media screen and (max-width: 535px) {
+
+
+  .container {
+     min-height: 3600px;
+     overflow: hidden;
+       }
+
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+
+    .container {
+       min-height: 3400px;
+       overflow: hidden;
+         }
+
+      }
