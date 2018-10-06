@@ -4,14 +4,15 @@
 * {
   margin: 0;
   padding: 0;
-  }
+}
 
 
-  #footer {
+#footer { 
   width: 100vw;
   height: 30vh;
   background-color: #DB4949;
-  display: flex;
+  bottom: 0;
+  display: absolute;
   justify-content: center;
   color: white;
   font-family: 'Roboto Condensed';
