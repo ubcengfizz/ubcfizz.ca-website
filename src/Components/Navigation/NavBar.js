@@ -5,7 +5,7 @@ import Route from 'react-router-dom/Route';
 import About from '../About/About.js';
 import Footer from '../Footer/Footer.js';
 import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
-import FAQ from '../FAQ/FAQ.js';
+import FAQ from '../Services/FAQ/FAQ.js';
 import ScrollToTop from './ScrollToTop.js';
 import logo from '../../Images/cog.png';
 
