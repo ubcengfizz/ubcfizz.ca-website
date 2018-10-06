@@ -97,7 +97,7 @@ render() {
           () => {
             return ( <div>
               <FAQ/>
-              <Footer/>
+              <Footer />
             </div>
 
             );
