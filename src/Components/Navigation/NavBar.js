@@ -24,7 +24,7 @@ render() {
 
           <nav className="nav-bar">
 
-            <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
+          <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
           <div id="menu-left">
           <img alt="cog" id="cog" src={logo}/>
           <div id="title">
@@ -34,10 +34,11 @@ render() {
           </div>
            </NavLink>
 
-        <div id="menu-right">
+           <div class="spacer"/>
+
           <ul id="menu-list">
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Services</div>
+            <div className="menu-link">Services</div>
               <ul className="dropdown">
                 <li>
                   <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
@@ -49,14 +50,14 @@ render() {
           </li>
 
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Community</div>
+            <div className="menu-link">Community</div>
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
               </ul>
           </li>
 
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Admin</div>
+            <div className="menu-link">Admin</div>
               <ul className="dropdown">
                 <li>
                     <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
@@ -67,7 +68,6 @@ render() {
               </ul>
           </li>
         </ul>
-        </div>
         </nav>
 
         <div id="route-container">
