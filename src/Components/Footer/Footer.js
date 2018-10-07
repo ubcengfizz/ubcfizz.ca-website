@@ -9,6 +9,8 @@ class Footer extends Component {
     return (
       <footer id="footer">
 
+        <div id="filler"></div>
+
         <div id="club-location">
           <img alt="fizz logo" id="footer_fizz_logo" src={logo}/>
           <div id="location-details">UBC Engineering Physics<br/>
@@ -36,6 +38,8 @@ class Footer extends Component {
         </div>
 
       </div>
+
+      <div id="copyright-filler"></div>
 
       <p id="copyrights">&copy; 2018 UBC Engineering Physics Student Association</p>
       </footer>
