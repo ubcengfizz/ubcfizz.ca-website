@@ -8,6 +8,7 @@
 
 /* Container Styles */
 
+
 .outer-container {
   width: 100%;
 }
@@ -202,3 +203,9 @@ opacity: 1;
       color: #DB4949;
       text-decoration: none;
     }
+
+
+@media (max-width: 900px) {
+  #menu-list {
+  display: none;}
+}

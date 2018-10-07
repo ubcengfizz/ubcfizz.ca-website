@@ -57,7 +57,7 @@ render() {
               <DrawerToggleButton click={this.drawerToggleClickHandler}/>
             </div>
 
-          <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
+          <NavLink to="/" className="menu-link inactive" exact  activeClassName="active-logo">
           <div id="menu-left">
           <img alt="cog" id="cog" src={logo}/>
           <div id="title">
