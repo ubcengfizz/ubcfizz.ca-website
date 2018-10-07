@@ -207,7 +207,7 @@ opacity: 1;
 
 /* Responsive menu visibility */
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
   #menu-list {
   display: none;
 }

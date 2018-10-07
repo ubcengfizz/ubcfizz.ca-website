@@ -28,7 +28,7 @@
   text-decoration: none;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1120px) {
   .side-drawer {
   display: none;
 }
