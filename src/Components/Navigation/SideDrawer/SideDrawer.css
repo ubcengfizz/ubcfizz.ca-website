@@ -1,0 +1,15 @@
+.side-drawer {
+  height: 100%;
+  background: white;
+  z-index: 200;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  top: 10vh;
+  max-width: 400px;
+  font-family: 'Raleway';
+  font-size: 1.4em;
+  font-weight: 300;
+
+}

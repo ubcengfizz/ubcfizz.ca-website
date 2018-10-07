@@ -8,21 +8,30 @@ import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
 import FAQ from '../Services/FAQ/FAQ.js';
 import ScrollToTop from './ScrollToTop.js';
 import logo from '../../Images/cog.png';
-
-
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
 
 class NavBar extends Component {
 
 render() {
 
   return (
-    <div>
-  <Router>
+    <div  style={{height: '100%'}}>
+  <Router style={{height: '100%'}}>
+
     <ScrollToTop>
+      
+      <SideDrawer/>
+      <Backdrop />
 
         <div id="outer-container">
 
           <nav className="nav-bar">
+
+            <div>
+              <DrawerToggleButton/>
+            </div>
 
           <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
           <div id="menu-left">
