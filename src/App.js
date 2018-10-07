@@ -7,7 +7,7 @@ import logo from './Images/cog.png';
 class App extends Component {
   render() {
     return (
-      <div className="app-container">
+      <div className="app-container" style={{height: '100%'}}>
         <NavBar logo={logo}/>
       </div>
     );

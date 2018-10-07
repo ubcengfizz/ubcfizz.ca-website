@@ -8,23 +8,56 @@ import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
 import FAQ from '../Services/FAQ/FAQ.js';
 import ScrollToTop from './ScrollToTop.js';
 import logo from '../../Images/cog.png';
-
-
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
 
 class NavBar extends Component {
 
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState(
+      (prevState) => {
+        return {sideDrawerOpen: !prevState.sideDrawerOpen};
+      }
+    );
+  };
+
+  backdropClickHandler = () => {
+    return this.setState(
+      {sideDrawerOpen: false,}
+    );
+  };
+
 render() {
 
+  let backdrop;
+
+  if (this.state.sideDrawerOpen) {
+    backdrop = <Backdrop click={this.backdropClickHandler}/>;
+  }
+
   return (
-    <div>
-  <Router>
+    <div  style={{height: '100%'}}>
+  <Router style={{height: '100%'}}>
+
     <ScrollToTop>
+
+      <SideDrawer show={this.state.sideDrawerOpen}/>
+      {backdrop}
 
         <div id="outer-container">
 
           <nav className="nav-bar">
 
-            <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
+            <div>
+              <DrawerToggleButton click={this.drawerToggleClickHandler}/>
+            </div>
+
+          <NavLink to="/" className="menu-link inactive" exact  activeClassName="active-logo">
           <div id="menu-left">
           <img alt="cog" id="cog" src={logo}/>
           <div id="title">
@@ -34,10 +67,11 @@ render() {
           </div>
            </NavLink>
 
-        <div id="menu-right">
+           <div class="spacer"/>
+
           <ul id="menu-list">
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Services</div>
+            <div className="menu-link">Services</div>
               <ul className="dropdown">
                 <li>
                   <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
@@ -49,14 +83,14 @@ render() {
           </li>
 
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Community</div>
+            <div className="menu-link">Community</div>
               <ul className="dropdown">
                 <li className="dropdown-item">Testing</li>
               </ul>
           </li>
 
           <li className="menu-list-item">
-            <div className="menu-link hasDropdown">Admin</div>
+            <div className="menu-link">Admin</div>
               <ul className="dropdown">
                 <li>
                     <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
@@ -67,7 +101,6 @@ render() {
               </ul>
           </li>
         </ul>
-        </div>
         </nav>
 
         <div id="route-container">

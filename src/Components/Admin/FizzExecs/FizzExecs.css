@@ -27,13 +27,9 @@
 }
 
 
-
-
-
 .text {
   width: 90vw;
   margin-left: 6%;
-  top: 50px;
   color: #4B4343;
 
 
@@ -54,7 +50,7 @@ border-top: 1px solid #4B4343;
 /** People Styles */
 
 .person {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .title, .name, .email {
@@ -63,7 +59,7 @@ border-top: 1px solid #4B4343;
 }
 
 .title {
-  font-size: 2em;
+  font-size: 2vw;
   font-weight: 200;
 }
 
@@ -76,4 +72,36 @@ border-top: 1px solid #4B4343;
   font-size: 1.3em;
   font-weight: 300;
   font-style: italic;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .person .title {
+    font-size: 4vw;
+  }
+    .description {
+    font-size: 2vw;    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .component-title {
+    font-size: 1em;
+  }
+  .person .title {
+    font-size: 5vw;
+  }
+
+  .person .name {
+    font-size: 4vw;
+  }
+
+  .person .email {
+    font-size: 4vw;
+  }
+
+    .description {
+    font-size: 3vw;    }
 }
