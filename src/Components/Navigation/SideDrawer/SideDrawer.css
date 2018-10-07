@@ -11,5 +11,10 @@
   font-family: 'Raleway';
   font-size: 1.4em;
   font-weight: 300;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
 
+.side-drawer.open {
+  transform: translateX(0);
 }

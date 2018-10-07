@@ -3,8 +3,16 @@ import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 import './SideDrawer.css';
 
 
-const sideDrawer = props => (
-  <nav className="side-drawer">
+const sideDrawer = props => {
+
+let drawerClasses = 'side-drawer';
+
+if (props.show) {
+  drawerClasses = 'side-drawer open';
+}
+
+  return (
+    <nav className={drawerClasses}>
     <ul>
       <li>
         <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
@@ -21,5 +29,6 @@ const sideDrawer = props => (
     </ul>
   </nav>
 );
+};
 
 export default sideDrawer;

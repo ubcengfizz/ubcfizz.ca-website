@@ -34,11 +34,9 @@ class NavBar extends Component {
 
 render() {
 
-  let sideDrawer;
   let backdrop;
 
   if (this.state.sideDrawerOpen) {
-    sideDrawer = <SideDrawer />;
     backdrop = <Backdrop click={this.backdropClickHandler}/>;
   }
 
@@ -48,7 +46,7 @@ render() {
 
     <ScrollToTop>
 
-      {sideDrawer}
+      <SideDrawer show={this.state.sideDrawerOpen}/>
       {backdrop}
 
         <div id="outer-container">
