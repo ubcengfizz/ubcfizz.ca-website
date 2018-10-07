@@ -14,23 +14,49 @@ import Backdrop from './Backdrop/Backdrop';
 
 class NavBar extends Component {
 
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState(
+      (prevState) => {
+        return {sideDrawerOpen: !prevState.sideDrawerOpen};
+      }
+    );
+  };
+
+  backdropClickHandler = () => {
+    return this.setState(
+      {sideDrawerOpen: false,}
+    );
+  };
+
 render() {
+
+  let sideDrawer;
+  let backdrop;
+
+  if (this.state.sideDrawerOpen) {
+    sideDrawer = <SideDrawer />;
+    backdrop = <Backdrop click={this.backdropClickHandler}/>;
+  }
 
   return (
     <div  style={{height: '100%'}}>
   <Router style={{height: '100%'}}>
 
     <ScrollToTop>
-      
-      <SideDrawer/>
-      <Backdrop />
+
+      {sideDrawer}
+      {backdrop}
 
         <div id="outer-container">
 
           <nav className="nav-bar">
 
             <div>
-              <DrawerToggleButton/>
+              <DrawerToggleButton click={this.drawerToggleClickHandler}/>
             </div>
 
           <NavLink to="/" className="menu-link" exact className="inactive" activeClassName="active-logo">
