@@ -8,14 +8,14 @@
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   background-color: #F8F8F8;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .text {
-  width: 90vw;
+  width: 90%;
   margin-left: 6%;
   top: 50px;
   color: #4B4343;
@@ -46,12 +46,40 @@ border-top: 1px solid #4B4343;
 }
 
 .content {
-  width: 70vw;
+  width: 70%;
   margin-top: 20px;
   font-family: 'Raleway';
   font-size: 1.2em;
 }
 
+.component-title {
+  font-size: 1.3em;
+}
+
 .qa {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .title {
+    font-size: 4vw;
+  }
+    .content {
+    font-size: 2vw;    }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .component-header {
+    font-size: 1.8em;
+  }
+  .title {
+    font-size: 5vw;
+  }
+
+
+
+    .content {
+    font-size: 3.5vw;    }
 }
