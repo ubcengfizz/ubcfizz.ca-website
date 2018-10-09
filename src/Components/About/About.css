@@ -118,3 +118,18 @@ margin-top: 40px;
   text-align: center;
   border-bottom: 1px solid grey;
 }
+
+@media only screen and (max-width: 900px) {
+  #fizz_logo {
+    display: none;
+  }
+
+  #description-container {
+    width: 80%;
+    top: 12%;
+  }
+
+  #landing {
+    height: 500px;
+  }
+}
