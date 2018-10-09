@@ -10,24 +10,27 @@
   margin: 0;
 }
 
+#container {
+  width: 100%;
+}
 /* Landing Styles */
 
 #landing {
-  height: 90vh;
-  width: 100vw;
+  height: 800px;
+  width: 100%;
   background-image: url('../../Images/background.png');
   background-repeat: no-repeat;
-  background-size: 100vw 90vh;
+  background-size: 100% 900px;
   position: relative;
 
 }
 
 
 #fizz_logo {
-  height: 35vh;
+  height: 280px;
   position: absolute;
-  left: 44vw;
-  top: 23vh;
+  left: 46%;
+  top: 20%;
 
 }
 
@@ -35,10 +38,10 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 100;
   color: white;
-  margin-left: 4vw;
+  margin-left: 4%;
   position: relative;
-  top: 18vh;
-  width: 40vw;
+  top: 18%;
+  width: 40%;
 }
 
 #description-body {
@@ -62,7 +65,7 @@
 #social_media {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10px;
 }
 
 #twitter_logo {
@@ -73,19 +76,20 @@
 /* Announcement Styles */
 
 #announcements {
-  height: 80vh;
-  width: 100vw;
+  width: 100%;
   background-color: #F8F8F8;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2em;
   font-weight: 200;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #announcement-container {
-width: 78vw;
-margin-top: 8vh;
+width: 80%;
+margin-top: 50px;
 }
 
 #announcement-header {
@@ -99,27 +103,18 @@ margin-top: 8vh;
 
 }
 
-.announcement-menu {
-  margin-top: 9vh;
+#announcement-body {
+margin-top: 40px;
 }
 
-.announcement-item {
-  margin-right: 5vw;
-  width: 300px;
-  user-select: none;
-  border: none;
-  height: 50vh;
-  overflow: auto;
-  white-space:normal;
+.announcement-card {
+  margin-right: 10px;
+  margin-bottom: 10px;
 
 }
 
-.announcement-title {
-  margin-bottom: 2vh;
-border-bottom: solid 1px black;
-}
-
-.scroll-menu-arrow {
-  padding: 20px;
-  cursor: pointer;
+.announcement-card h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid grey;
 }
