@@ -56,7 +56,10 @@ render() {
             {announcementData.map(announcement =>
                <Paper className="announcement-card">
                  <h3>{announcement.Title}</h3>
-                 {announcement.Description} </Paper>)}
+                 <p className="announcement-description">
+                   {announcement.Description}
+                 </p>
+               </Paper>)}
 
       </StackGrid>
     </div>

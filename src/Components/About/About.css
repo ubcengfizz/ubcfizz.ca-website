@@ -110,7 +110,13 @@ margin-top: 40px;
 .announcement-card {
   margin-right: 10px;
   margin-bottom: 10px;
+  color: #43464c;
+  padding: 10px;
 
+}
+
+.announcement-description {
+  margin-top: 10px;
 }
 
 .announcement-card h3 {
