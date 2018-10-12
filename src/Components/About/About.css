@@ -16,7 +16,7 @@
 /* Landing Styles */
 
 #landing {
-  height: 800px;
+  height: 690px;
   width: 100%;
   background-image: url('../../Images/background.png');
   background-repeat: no-repeat;
@@ -72,6 +72,10 @@
   transform: translateY(-6px);
 }
 
+#instagram_logo {
+  transform: translateY(-6px);
+
+}
 
 /* Announcement Styles */
 
@@ -137,5 +141,19 @@ margin-top: 40px;
 
   #landing {
     height: 500px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  #description-body {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+
+  #announcement-header {
+    font-size: 1.4em;
   }
 }

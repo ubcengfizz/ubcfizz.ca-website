@@ -17,7 +17,8 @@ class Footer extends Component {
       Vancouver Campus<br/>
       6224 Agricultural Road<br/>
       Hennings Building, Room 333A<br/>
-      Vancouver, BC Canada V6T 1Z1
+      Student Space: LIFE 2116<br/>
+      
         </div>
       </div>
 
