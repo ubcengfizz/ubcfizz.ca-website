@@ -31,7 +31,8 @@ render() {
           a strong academic and social community through various events, including
           lecture series, chess tournaments, beer Gardens, LAN parties, poker nights,
           and much more. We also offer services such as a mentoring program, first-year
-          tutoring, clothing, sports, and a comprehensive course directory. </p></div>
+          tutoring, clothing, sports, and a comprehensive course directory. Visit us
+        at our Life Building student space in room 2116!</p></div>
       </div>
 
     <img alt="fizz logo" id="fizz_logo" src={logo}/>

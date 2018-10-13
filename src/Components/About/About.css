@@ -156,4 +156,8 @@ margin-top: 40px;
   #announcement-header {
     font-size: 1.4em;
   }
+
+  #description-body {
+    font-size: 1em;
+  }
 }
