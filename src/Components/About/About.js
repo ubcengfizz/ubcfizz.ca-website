@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import ScrollMenu from 'react-horizontal-scrolling-menu';
 import './About.css';
 import logo from '../../Images/fizz_logo.png';
-import twitterlogo from '../../Images/twitter_logo.png';
-import facebooklogo from '../../Images/facebook_logo.png';
-import instagramlogo from '../../Images/instagram_logo.png';
 import Paper from '@material-ui/core/Paper';
 import StackGrid, { transitions } from "react-stack-grid";
 
