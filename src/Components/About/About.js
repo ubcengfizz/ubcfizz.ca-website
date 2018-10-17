@@ -36,17 +36,7 @@ render() {
       </div>
 
     <img alt="fizz logo" id="fizz_logo" src={logo}/>
-    <div id="social_media">
-      <a href="https://twitter.com/ubcengphys?lang=en">
-      <img alt="twitter logo" id="twitter_logo" src={twitterlogo}/>
-    </a>
-      <a href="https://www.facebook.com/EngPhysProjectLab/">
-      <img alt="facebook logo" id="facebook_logo" src={facebooklogo}/>
-    </a>
-    <a href="https://www.instagram.com/ubcengineeringphysics/">
-    <img alt="instagram logo" id="instagram_logo" src={instagramlogo}/>
-   </a>
-    </div>
+
     </div>
 
     <div id="announcements">

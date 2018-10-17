@@ -22,7 +22,6 @@ if (props.show) {
         </NavLink>
       </li>
 
-      <li className="dropdown-item">Testing</li>
 
 
       <li className="menu-header">Admin</li>
@@ -32,12 +31,10 @@ if (props.show) {
         </NavLink>
       </li>
 
-      <li className="dropdown-item">Testing</li>
 
 
       <li className="menu-header">Community</li>
 
-      <li className="dropdown-item">Testing</li>
 
 
 

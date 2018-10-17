@@ -78,16 +78,10 @@ render() {
                   FAQ
                   </NavLink>
                 </li>
-                <li className="dropdown-item">Testing</li>
               </ul>
           </li>
 
-          <li className="menu-list-item">
-            <div className="menu-link">Community</div>
-              <ul className="dropdown">
-                <li className="dropdown-item">Testing</li>
-              </ul>
-          </li>
+
 
           <li className="menu-list-item">
             <div className="menu-link">Admin</div>
@@ -97,7 +91,6 @@ render() {
                     Fizz Execs
                     </NavLink>
                 </li>
-                <li className="dropdown-item">Testing</li>
               </ul>
           </li>
         </ul>
