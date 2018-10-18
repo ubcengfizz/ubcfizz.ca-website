@@ -42,7 +42,7 @@ render() {
 
   return (
     <div  style={{height: '100%'}}>
-  <Router style={{height: '100%'}}>
+  <Router style={{height: '100%'}} basename={process.env.PUBLIC_URL}>
 
     <ScrollToTop>
 
