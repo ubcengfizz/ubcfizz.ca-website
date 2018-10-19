@@ -12,13 +12,13 @@
     "react-scroll-horizontal": "^1.5.1",
     "react-stack-grid": "^0.7.1"
   },
-  "homepage": "http://nramley.github.io/eng-phys",
+  "homepage": "http://ubcengfizz.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   }
 }

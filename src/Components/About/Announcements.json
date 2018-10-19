@@ -1,26 +1,14 @@
 [
    {
-      "Title":"Guest Speaker",
-      "Description":"Lorem ipsum domod amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Title":"Fizz Talks",
+      "Description":"Fizz Talks is currently in planning stages for early November! This is a once-per-semester event where Fizzers can get up in front of an audience, practice their performing or oratory skills and share some of their interests and passions. There's no real format to the performance or presentation you want to give, only that you're limited to 10 minutes. Interested in being a speaker? Send an email to president@ubcfizz.com with a short abstract of your talk, or what you plan to perform."
    },
    {
-     "Title":"Guest Speaker1",
-     "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+     "Title":"Beef & Pizza",
+     "Description":"Mark your calendars, November 1st from 12:30 until 2 in Hennings 200, come eat free pizza and give Andre feedback on your courses. If you've never been to a Beef and Pizza before, this is your best opportunity to tell Andre how Engineering Physics could be better in terms of course scheduling and selection. "
    },
    {
-     "Title":"Guest Speaker2",
-     "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-   },
-   {
-     "Title":"Guest Speaker2",
-     "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-   },
-   {
-     "Title":"Guest Speaker2",
-     "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-   },
-   {
-     "Title":"Guest Speaker2",
-     "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+     "Title":"New Website!",
+     "Description":"After many long years of mediocrity, the Fizz website has been completely redesigned! A huge thank you to everyone involved in making this project happen. Feel free to send any website related feedback to the IT Manager."
    }
 ]
