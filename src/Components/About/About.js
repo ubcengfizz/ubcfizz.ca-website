@@ -24,13 +24,7 @@ render() {
     <div id="landing">
       <div id="description-container">
         <h2 id="description-head">Get To Know Us</h2>
-        <div id="description-body"><p>We are a group of students who represent the interests of
-          those in the department of Engineering Physics. We serve to build
-          a strong academic and social community through various events, including
-          lecture series, chess tournaments, beer Gardens, LAN parties, poker nights,
-          and much more. We also offer services such as a mentoring program, first-year
-          tutoring, clothing, sports, and a comprehensive course directory. Visit us
-        at our Life Building student space in room 2116!</p></div>
+        <div id="description-body"><p>This page is administered by the Engineering Physics Student Society, lovingly termed "Fizz". Fizz serves the interests of Engineering Physics students by organizing academic, social, and professional development events throughout the year in addition to offering tutoring services to first year engineering students at UBC. We are headquartered out room 2116 of the UBC Life Building and the Engineering Physics Project lab in the basement of Hennings. Come by either of our spaces or connect with us via email to learn more about our program and what we do.</p></div>
       </div>
 
     <img alt="fizz logo" id="fizz_logo" src={logo}/>

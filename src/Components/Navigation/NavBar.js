@@ -87,7 +87,7 @@ render() {
             <div className="menu-link">Admin</div>
               <ul className="dropdown">
                 <li>
-                    <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
+                    <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
                     Executives
                     </NavLink>
                 </li>
@@ -108,7 +108,7 @@ render() {
           }
         }/>
 
-        <Route path="/FizzExecs" exact strict render={
+        <Route path="/executives" exact strict render={
           () => {
             return ( <div>
               <FizzExecs/>
