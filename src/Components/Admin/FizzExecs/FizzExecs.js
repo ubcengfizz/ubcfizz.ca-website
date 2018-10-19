@@ -120,8 +120,8 @@ class FizzExecs extends Component {
           <div className="name">Dominic Shillingford and Chris Wilson</div>
           <div className="email">compadmin (at) ubcfizz (dot) com</div>
 
-          <div className="description">The IT Manager is responsible for maintaining the Penthouse computers,
-            wireless access, and printers. He also updates and oversees the ubcfizz.com website and Fizz mailing lists. 
+          <div className="description">The IT Managers are responsible for maintaining the Penthouse computers,
+            wireless access, and printers. They also updates and oversees the ubcfizz.com website and Fizz mailing lists. 
            </div>
         </div>
 
@@ -131,10 +131,10 @@ class FizzExecs extends Component {
           <div className="email">mech (at) ubcfizz (dot) com</div>
 
           <div className="description">The Board of Studies Representatives organise feedback from current EngPhys
-            students and advocate for changes to the required EngPhys curriculum. Feedback is primarily solicited
+            students and advocate for changes to the required Engineering Physics curriculum. Feedback is primarily solicited
             at twice-annual Beef and Pizza events, in addition to mid-term evaluations conducted during class. In
             the first half of the academic year, the Board of Studies reps bring collected feedback to a Board of
-            Studies meeting with the EngPhys Director and various Engineering department heads to discuss curriculum changes.
+            Studies meeting with the Engineering Physics Director and various Engineering department heads to discuss curriculum changes.
            </div>
         </div>
 
@@ -143,9 +143,9 @@ class FizzExecs extends Component {
           <div className="name">Chris Wilson and Maria Sottile</div>
           <div className="email">sports (at) ubcfizz (dot) com</div>
 
-          <div className="description">The Sports Representative is responsible for communicating UBC REC leagues and event
-             registration dates to fizzers through the club mailing list. He facilitates the organization of REC league
-             teams from interested members and organizes an outdoor excursion for club members, such as white-water rafting,
+          <div className="description">The Sports Representatives are responsible for communicating UBC REC leagues and event
+             registration dates to fizzers through the club mailing list. They facilitate the organization of REC league
+             teams from interested members and organize an outdoor excursion for club members, such as white-water rafting,
              paint balling, or ski trips. 
            </div>
         </div>
