@@ -12,7 +12,7 @@
     "react-scroll-horizontal": "^1.5.1",
     "react-stack-grid": "^0.7.1"
   },
-  "homepage": "http://ubcengfizz.github.io/engphys",
+  "homepage": "http://ubcengfizz.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
