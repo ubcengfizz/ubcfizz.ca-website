@@ -33,10 +33,6 @@ if (props.show) {
 
 
 
-      <li className="menu-header">Community</li>
-
-
-
 
     </ul>
   </nav>
