@@ -133,7 +133,7 @@ class FizzExecs extends Component {
         <div className="person">
           <div className="title">Board of Studies Representative</div>
           <div className="name">James Park and Robert Drinnan</div>
-          <div className="email">mech (at) ubcfizz (dot) com</div>
+          <div className="email">bos (at) ubcfizz (dot) com</div>
 
           <div className="description">The Board of Studies Representatives organise feedback from current EngPhys
             students and advocate for changes to the required Engineering Physics curriculum. Feedback is primarily solicited
