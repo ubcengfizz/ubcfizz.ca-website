@@ -6,7 +6,7 @@ import './FizzExecs.css';
 class FizzExecs extends Component {
 
   componentDidMount() {
-    document.title = "UBC Fizz | FizzExecs";
+    document.title = "UBC Fizz | Executives";
   };
 
   render() {
