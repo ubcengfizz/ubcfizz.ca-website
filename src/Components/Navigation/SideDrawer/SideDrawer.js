@@ -27,13 +27,9 @@ if (props.show) {
       <li className="menu-header">Admin</li>
       <li>
         <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
-        Fizz Execs
+        Executives
         </NavLink>
       </li>
-
-
-
-      <li className="menu-header">Community</li>
 
 
 

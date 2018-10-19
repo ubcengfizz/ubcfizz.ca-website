@@ -88,7 +88,7 @@ render() {
               <ul className="dropdown">
                 <li>
                     <NavLink to="/FizzExecs" className="dropdown-item" activeClassName="dropdown-item">
-                    Fizz Execs
+                    Executives
                     </NavLink>
                 </li>
               </ul>
