@@ -11,7 +11,9 @@ var data = require('./Announcements.json');
 
 class About extends Component {
 
-
+  componentDidMount() {
+    document.title = "UBC Fizz | Home";
+  };
 
 render() {
 
