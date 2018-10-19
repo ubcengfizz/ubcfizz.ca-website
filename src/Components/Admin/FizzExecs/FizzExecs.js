@@ -4,6 +4,11 @@ import './FizzExecs.css';
 
 
 class FizzExecs extends Component {
+
+  componentDidMount() {
+    document.title = "UBC Fizz | FizzExecs";
+  };
+
   render() {
     return (
       <div className="container">

@@ -4,6 +4,11 @@ import './FAQ.css';
 
 
 class FAQ extends Component {
+
+  componentDidMount() {
+    document.title = "UBC Fizz | FAQ";
+  };
+
   render() {
     return (
       <div className="container">
