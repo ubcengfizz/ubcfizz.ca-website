@@ -19,8 +19,6 @@
   margin-left: 6%;
   top: 50px;
   color: #4B4343;
-
-
 }
 
 .component-header {
@@ -30,7 +28,7 @@
 
 
 hr {
-border-top: 1px solid #4B4343;
+  border-top: 1px solid #4B4343;
 }
 
 /** Question Styles **/
@@ -49,11 +47,11 @@ border-top: 1px solid #4B4343;
   width: 70%;
   margin-top: 20px;
   font-family: 'Raleway';
-  font-size: 1.2em;
+  font-size: 1.07em;
 }
 
 .component-title {
-  font-size: 1.3em;
+  font-size: 1.12em;
 }
 
 .qa {

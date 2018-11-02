@@ -14,131 +14,131 @@ import Backdrop from './Backdrop/Backdrop';
 
 class NavBar extends Component {
 
-  state = {
-    sideDrawerOpen: false
-  };
+    state = {
+        sideDrawerOpen: false
+    };
 
-  drawerToggleClickHandler = () => {
-    this.setState(
-      (prevState) => {
-        return {sideDrawerOpen: !prevState.sideDrawerOpen};
-      }
-    );
-  };
+    drawerToggleClickHandler = () => {
+        this.setState(
+            (prevState) => {
+                return { sideDrawerOpen: !prevState.sideDrawerOpen };
+            }
+        );
+    };
 
-  backdropClickHandler = () => {
-    return this.setState(
-      {sideDrawerOpen: false,}
-    );
-  };
+    backdropClickHandler = () => {
+        return this.setState(
+            { sideDrawerOpen: false, }
+        );
+    };
 
-render() {
+    render() {
 
-  let backdrop;
+        let backdrop;
 
-  if (this.state.sideDrawerOpen) {
-    backdrop = <Backdrop click={this.backdropClickHandler}/>;
-  }
+        if (this.state.sideDrawerOpen) {
+            backdrop = <Backdrop click={this.backdropClickHandler} />;
+        }
 
-  return (
-    <div  style={{height: '100%'}}>
-  <Router style={{height: '100%'}} basename={process.env.PUBLIC_URL}>
+        return (
+            <div style={{ height: '100%' }}>
+                <Router style={{ height: '100%' }} basename={process.env.PUBLIC_URL}>
 
-    <ScrollToTop>
+                    <ScrollToTop>
 
-      <SideDrawer show={this.state.sideDrawerOpen}/>
-      {backdrop}
+                        <SideDrawer show={this.state.sideDrawerOpen} />
+                        {backdrop}
 
-        <div id="outer-container">
+                        <div id="outer-container">
 
-          <nav className="nav-bar">
+                            <nav className="nav-bar">
 
-            <div>
-              <DrawerToggleButton click={this.drawerToggleClickHandler}/>
+                                <div>
+                                    <DrawerToggleButton click={this.drawerToggleClickHandler} />
+                                </div>
+
+                                <NavLink to="/" className="menu-link inactive" exact activeClassName="active-logo">
+                                    <div id="menu-left">
+                                        <img alt="cog" id="cog" src={logo} />
+                                        <div id="title">
+                                            <h2>FIZZ</h2>
+                                            <h5>The UBC Engineering Physics Student Association</h5>
+                                        </div>
+                                    </div>
+                                </NavLink>
+
+                                <div className="spacer" />
+
+                                <ul id="menu-list">
+                                    <li className="menu-list-item">
+                                        <div className="menu-link">Services</div>
+                                        <ul className="dropdown">
+                                            <li>
+                                                <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
+                                                    FAQ
+                                                </NavLink>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li className="menu-list-item">
+                                        <div className="menu-link">Admin</div>
+                                        <ul className="dropdown">
+                                            <li>
+                                                <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
+                                                    Executives
+                                                </NavLink>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div id="route-container">
+                                <Route path="/" exact strict render={
+                                    () => {
+                                        return (<div>
+                                            <About />
+                                            <Footer />
+                                        </div>
+
+                                        );
+                                    }
+                                } />
+
+                                <Route path="/executives" exact strict render={
+                                    () => {
+                                        return (<div>
+                                            <FizzExecs />
+                                            <Footer />
+                                        </div>
+
+                                        );
+                                    }
+                                } />
+
+                                <Route path="/faq" exact strict render={
+                                    () => {
+                                        return (<div>
+                                            <FAQ />
+                                            <Footer />
+                                        </div>
+
+                                        );
+                                    }
+                                } />
+
+                            </div>
+                        </div>
+                    </ScrollToTop>
+                </Router>
+
+
             </div>
-
-          <NavLink to="/" className="menu-link inactive" exact  activeClassName="active-logo">
-          <div id="menu-left">
-          <img alt="cog" id="cog" src={logo}/>
-          <div id="title">
-            <h2>FIZZ</h2>
-            <h5>The UBC Engineering Physics Student Association</h5>
-          </div>
-          </div>
-           </NavLink>
-
-           <div class="spacer"/>
-
-          <ul id="menu-list">
-          <li className="menu-list-item">
-            <div className="menu-link">Services</div>
-              <ul className="dropdown">
-                <li>
-                  <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
-                  FAQ
-                  </NavLink>
-                </li>
-              </ul>
-          </li>
-
-
-
-          <li className="menu-list-item">
-            <div className="menu-link">Admin</div>
-              <ul className="dropdown">
-                <li>
-                    <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
-                    Executives
-                    </NavLink>
-                </li>
-              </ul>
-          </li>
-        </ul>
-        </nav>
-
-        <div id="route-container">
-        <Route path="/" exact strict render={
-          () => {
-            return ( <div>
-              <About/>
-              <Footer/>
-            </div>
-
-            );
-          }
-        }/>
-
-        <Route path="/executives" exact strict render={
-          () => {
-            return ( <div>
-              <FizzExecs/>
-              <Footer/>
-            </div>
-
-            );
-          }
-        }/>
-
-        <Route path="/faq" exact strict render={
-          () => {
-            return ( <div>
-              <FAQ/>
-              <Footer />
-            </div>
-
-            );
-          }
-        }/>
-
-        </div>
-        </div>
-      </ScrollToTop>
-      </Router>
-
-
-    </div>
-);
-}
+        );
+    }
 
 }
 
