@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:700,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300');
 
-
-
-
 * {
   padding: 0;
   margin: 0;
@@ -13,24 +10,24 @@
 #container {
   width: 100%;
 }
+
 /* Landing Styles */
 
 #landing {
-  height: 690px;
+  height: 380px;
   width: 100%;
-  background-image: url('../../Images/background.png');
+  background-image: url('../../Images/background2.png');
   background-repeat: no-repeat;
-  background-size: 100% 900px;
+  background-size: 100% 380px;
   position: relative;
-
 }
 
 
 #fizz_logo {
   height: 280px;
   position: absolute;
-  left: 46%;
-  top: 20%;
+  left: 51%;
+  top: 15%;
 
 }
 
@@ -40,16 +37,15 @@
   color: white;
   margin-left: 4%;
   position: relative;
-  top: 18%;
+  top: 12%;
   width: 40%;
 }
 
 #description-body {
-
   border-left: 2px solid white;
   padding-left: 20px;
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1.15em;
+  line-height: 1.15em;
 }
 
 #description-head {
@@ -127,7 +123,7 @@ margin-top: 40px;
   border-bottom: 1px solid grey;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   #fizz_logo {
     display: none;
   }
