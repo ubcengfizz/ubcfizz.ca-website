@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../Images/fizz_logo.png';
+import logo from '../../Images/fizz-logo.svg';
 import './Footer.css';
 import twitterlogo from '../../Images/twitter_logo.png';
 import facebooklogo from '../../Images/facebook_logo.png';
