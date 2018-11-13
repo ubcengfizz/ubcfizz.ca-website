@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+import { HashRouter as Router, NavLink } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import About from '../About/About.js';
 import Footer from '../Footer/Footer.js';
