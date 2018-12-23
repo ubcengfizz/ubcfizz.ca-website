@@ -78,7 +78,7 @@
 
 #announcement-container {
   width: 80%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -91,7 +91,7 @@
 }
 
 #announcement-body {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .announcement-card {
