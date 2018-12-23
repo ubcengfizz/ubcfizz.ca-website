@@ -6,20 +6,6 @@
 
   }
 
-/* Container Styles */
-
-
-.outer-container {
-  width: 100%;
-}
-
-#route-container {
-  position: absolute;
-  top: 10vh;
-  width: 100%;
-
-}
-
 /* Overall Nav Bar Styles */
 
 .nav-bar {
