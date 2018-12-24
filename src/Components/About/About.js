@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import './About.css';
 import logo from '../../Images/fizz-logo.svg';
-import Paper from '@material-ui/core/Paper';
-import StackGrid, { transitions } from "react-stack-grid";
+import banner from '../../Images/background2.png';
 
-const { scaleDown } = transitions;
-
-const announcements = require( './Announcements.json' );
+import Announcements from './Announcements';
 
 class About extends Component {
 
@@ -25,32 +22,17 @@ class About extends Component {
                         </div>
                     </div>
 
-                    <img alt="fizz logo" id="fizz_logo" src={logo} />
+                    <img alt="fizz logo" id="fizz_logo" src={logo}/>
                 </div>
 
                 <div id="announcements">
                     <div id="announcement-container">
                         <h1 id="announcement-header">Announcements</h1>
-
                         <div id="announcement-body">
-                            <StackGrid
-                                appear={scaleDown.appear}
-                                appeared={scaleDown.appeared}
-                                enter={scaleDown.enter}
-                                entered={scaleDown.entered}
-                                leaved={scaleDown.leaved}
-                                columnWidth={300}>
-
-                                { announcements.map( parseAnnouncement ) }
-
-                            </StackGrid>
+                            <Announcements/>
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
         );
     }
@@ -58,11 +40,3 @@ class About extends Component {
 }
 
 export default About;
-
-// Some helper functions
-function parseAnnouncement( data ) {
-    return  <Paper className="announcement-card" key={ data.title }>
-                <h3>{data.title}</h3>
-                <p className="announcement-description" dangerouslySetInnerHTML={ { __html: data.description}}></p>
-            </Paper>;
-}

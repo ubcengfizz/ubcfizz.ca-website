@@ -1,145 +1,66 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import { HashRouter as Router, NavLink } from 'react-router-dom';
-import Route from 'react-router-dom/Route';
-import About from '../About/About.js';
-import Footer from '../Footer/Footer.js';
-import FizzExecs from '../Admin/FizzExecs/FizzExecs.js';
-import FAQ from '../Services/FAQ/FAQ.js';
-import ScrollToTop from './ScrollToTop.js';
+import { NavLink } from 'react-router-dom';
 import logo from '../../Images/cog.png';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 import SideDrawer from './SideDrawer/SideDrawer';
-import Backdrop from './Backdrop/Backdrop';
 
 class NavBar extends Component {
+    state = { sideDrawerOpen: false }
 
-    state = {
-        sideDrawerOpen: false
-    };
-
-    drawerToggleClickHandler = () => {
-        this.setState(
-            (prevState) => {
-                return { sideDrawerOpen: !prevState.sideDrawerOpen };
-            }
-        );
-    };
-
-    backdropClickHandler = () => {
-        return this.setState(
-            { sideDrawerOpen: false, }
-        );
-    };
+    drawerToggleClickHandler = () => this.setState( ( props ) => ( { sideDrawerOpen: !props.sideDrawerOpen } ) );
 
     render() {
-
-        let backdrop;
-
-        if (this.state.sideDrawerOpen) {
-            backdrop = <Backdrop click={this.backdropClickHandler} />;
-        }
-
         return (
-            <div style={{ height: '100%' }}>
-                <Router style={{ height: '100%' }} basename={process.env.PUBLIC_URL}>
+            <div>
+                <SideDrawer show={ this.state.sideDrawerOpen }/>
+                <nav className="nav-bar">
 
-                    <ScrollToTop>
+                    <div>
+                        <DrawerToggleButton click={this.drawerToggleClickHandler} />
+                    </div>
 
-                        <SideDrawer show={this.state.sideDrawerOpen} />
-                        {backdrop}
-
-                        <div id="outer-container">
-
-                            <nav className="nav-bar">
-
-                                <div>
-                                    <DrawerToggleButton click={this.drawerToggleClickHandler} />
-                                </div>
-
-                                <NavLink to="/" className="menu-link inactive" exact activeClassName="active-logo">
-                                    <div id="menu-left">
-                                        <img alt="cog" id="cog" src={logo} />
-                                        <div id="title">
-                                            <h2>FIZZ</h2>
-                                            <h5>The UBC Engineering Physics Student Association</h5>
-                                        </div>
-                                    </div>
-                                </NavLink>
-
-                                <div className="spacer" />
-
-                                <ul id="menu-list">
-                                    <li className="menu-list-item">
-                                        <div className="menu-link">Services</div>
-                                        <ul className="dropdown">
-                                            <li>
-                                                <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
-                                                    FAQ
-                                                </NavLink>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-
-
-                                    <li className="menu-list-item">
-                                        <div className="menu-link">Admin</div>
-                                        <ul className="dropdown">
-                                            <li>
-                                                <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
-                                                    Executives
-                                                </NavLink>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-
-                            <div id="route-container">
-                                <Route path="/" exact strict render={
-                                    () => {
-                                        return (<div>
-                                            <About />
-                                            <Footer />
-                                        </div>
-
-                                        );
-                                    }
-                                } />
-
-                                <Route path="/executives" exact strict render={
-                                    () => {
-                                        return (<div>
-                                            <FizzExecs />
-                                            <Footer />
-                                        </div>
-
-                                        );
-                                    }
-                                } />
-
-                                <Route path="/faq" exact strict render={
-                                    () => {
-                                        return (<div>
-                                            <FAQ />
-                                            <Footer />
-                                        </div>
-
-                                        );
-                                    }
-                                } />
-
+                    <NavLink to="/" className="menu-link inactive" exact activeClassName="active-logo">
+                        <div id="menu-left">
+                            <img alt="cog" id="cog" src={logo} />
+                            <div id="title">
+                                <h2>FIZZ</h2>
+                                <h5>The UBC Engineering Physics Student Association</h5>
                             </div>
                         </div>
-                    </ScrollToTop>
-                </Router>
+                    </NavLink>
+
+                    <div className="spacer" />
+
+                    <ul id="menu-list">
+                        <li className="menu-list-item">
+                            <div className="menu-link">Services</div>
+                            <ul className="dropdown">
+                                <li>
+                                    <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
+                                        FAQ
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </li>
 
 
-            </div>
+
+                        <li className="menu-list-item">
+                            <div className="menu-link">Admin</div>
+                            <ul className="dropdown">
+                                <li>
+                                    <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
+                                        Executives
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>                
         );
     }
-
 }
 
 export default NavBar;
