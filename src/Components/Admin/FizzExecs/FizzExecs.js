@@ -47,7 +47,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Vice-President Events</div>
-          <div className="name">Sydney Seraphim and Tiffany Quon</div>
+          <div className="name">Tiffany Quon and Sydney Seraphim</div>
           <div className="email">vpevents (at) ubcfizz (dot) com</div>
 
           <div className="description">The Vice-President of Events ensures that students maintain a
@@ -169,7 +169,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">E-Week Representative</div>
-          <div className="name">Coleman Kaps and Toren?</div>
+          <div className="name">Coleman Kaps</div>
           <div className="email">eweek (at) ubcfizz (dot) com</div>
 
           <div className="description">The E-Week representative is responsible for organizing all things pertaining to Engineering Week.
