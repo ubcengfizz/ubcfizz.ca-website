@@ -132,7 +132,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Board of Studies Representative</div>
-          <div className="name">James Park and Robert Drinnan</div>
+          <div className="name">Robert Drinnan and James Park</div>
           <div className="email">bos (at) ubcfizz (dot) com</div>
 
           <div className="description">The Board of Studies Representatives organise feedback from current EngPhys
@@ -163,6 +163,17 @@ class FizzExecs extends Component {
           <div className="description">The Penthouse Manager oversees the maintenance and all upgrades of the Engineering Physics
             student room, known as the Penthouse. Vending machine items, T-shirt and hoodie sales, and keycard access to the student
             spaces fall within their responsibility.
+           </div>
+        </div>
+
+
+        <div className="person">
+          <div className="title">E-Week Representative</div>
+          <div className="name">Coleman Kaps and Toren?</div>
+          <div className="email">eweek (at) ubcfizz (dot) com</div>
+
+          <div className="description">The E-Week representative is responsible for organizing all things pertaining to Engineering Week.
+          This involves going to the EUS meetings in preperation for the week as well as providing the Fizz spirit for the department during the buildup to the Fizz victory. 
            </div>
         </div>
 
