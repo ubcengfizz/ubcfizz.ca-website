@@ -60,7 +60,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Treasurer</div>
-          <div className="name">Jessica Ma</div>
+          <div className="name">Je$$ica Ma</div>
           <div className="email">treasurer (at) ubcfizz (dot) com</div>
 
           <div className="description">The Treasurer handles all of the financial activities and transactions
@@ -99,7 +99,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">3rd Year Representative</div>
-          <div className="name">Jeremy Voldeng and Nicolas Navarre</div>
+          <div className="name">Nicolas Navarre and Jeremy Voldeng</div>
           <div className="email">thirdrep (at) ubcfizz (dot) com</div>
 
           <div className="description">The 3rd Year Representative acts as a liaison between the Fizz executive
@@ -132,8 +132,8 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Board of Studies Representative</div>
-          <div className="name">James Park and Robert Drinnan</div>
-          <div className="email">boardofstudies (at) ubcfizz (dot) com</div>
+          <div className="name">Robert Drinnan and James Park</div>
+          <div className="email">bos (at) ubcfizz (dot) com</div>
 
           <div className="description">The Board of Studies Representatives organise feedback from current EngPhys
             students and advocate for changes to the required Engineering Physics curriculum. Feedback is primarily solicited
@@ -145,7 +145,7 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Sports Representative</div>
-          <div className="name">Chris Wilson and Maria Sottile</div>
+          <div className="name">Maria Sottile and Chris Wilson</div>
           <div className="email">sports (at) ubcfizz (dot) com</div>
 
           <div className="description">The Sports Representatives are responsible for communicating UBC REC leagues and event
@@ -157,12 +157,23 @@ class FizzExecs extends Component {
 
         <div className="person">
           <div className="title">Penthouse Manager</div>
-          <div className="name">Ryan Schmidt and Michael Miller</div>
+          <div className="name">Michael Miller and Ryan Schmidt</div>
           <div className="email">penthouse (at) ubcfizz (dot) com</div>
 
           <div className="description">The Penthouse Manager oversees the maintenance and all upgrades of the Engineering Physics
             student room, known as the Penthouse. Vending machine items, T-shirt and hoodie sales, and keycard access to the student
             spaces fall within their responsibility.
+           </div>
+        </div>
+
+
+        <div className="person">
+          <div className="title">E-Week Representative</div>
+          <div className="name">Coleman Kaps</div>
+          <div className="email">eweek (at) ubcfizz (dot) com</div>
+
+          <div className="description">The E-Week representative is responsible for organizing all things pertaining to Engineering Week.
+          This involves going to the EUS meetings in preperation for the week as well as providing the Fizz spirit for the department during the buildup to the Fizz victory.
            </div>
         </div>
 
