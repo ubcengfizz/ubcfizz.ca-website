@@ -70,11 +70,6 @@ class Footer extends Component {
 
       </div>
 
-
-
-      <div id="copyright-filler"></div>
-
-      <p id="copyrights">&copy; 2018 UBC Engineering Physics Student Association</p>
       </footer>
     </div>
     );
