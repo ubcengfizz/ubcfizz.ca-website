@@ -8,6 +8,7 @@ import { Route, Switch } from 'react-router';
 import NavBar from "./Components/Navigation/NavBar"
 import Footer from "./Components/Footer/Footer"
 import Executives from "./Components/Admin/Executives/Executives"
+import Elections from "./Components/Admin/Elections/Elections"
 import FAQ from "./Components/Services/FAQ/FAQ"
 import About from "./Components/About/About"
 import ScrollToTop from './Components/Navigation/ScrollToTop'
@@ -23,6 +24,7 @@ class App extends Component {
                     <Switch>
                         <Route path="/executives" component={Executives}/>
                         <Route path="/faq" component={FAQ}/>
+                        <Route path="/elections" component={Elections}/>
                         <Route component={About}/>
                     </Switch>
                 </div>
