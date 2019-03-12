@@ -75,12 +75,7 @@ class Elections extends Component {
                         </ul>
                     </div>
                 </div>
-                
-                <div className="person">
-                    <div className="title">Candidates for VP Events</div>
-                    <div className="name">Sydney Seraphim, Tiffany Quon and Richard Echegaray</div>
-                    <div className="description">We would like to run for events so that we can ensure we bring the best events Fizz can offer - whether it be penthouse parties, Fizz talks, Fire and Ice.. we want to make sure everyone is included and everyone has a good time.</div>
-                </div>
+
                 <div className="person">
                     <div className="title">Candidates for Boards of Studies</div>
                     <div className="name">Julia Rosenrauch</div>
