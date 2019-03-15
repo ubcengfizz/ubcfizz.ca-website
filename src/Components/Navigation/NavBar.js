@@ -53,6 +53,9 @@ class NavBar extends Component {
                                     <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
                                         Executives
                                     </NavLink>
+                                    <NavLink to="/elections" className="dropdown-item" activeClassName="dropdown-item">
+                                        Elections
+                                    </NavLink>
                                 </li>
                             </ul>
                         </li>

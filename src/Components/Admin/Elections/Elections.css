@@ -48,7 +48,7 @@ border-top: 1px solid #4B4343;
 /** People Styles */
 
 .person {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .title, .name, .email {
@@ -57,7 +57,7 @@ border-top: 1px solid #4B4343;
 }
 
 .title {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .name {
