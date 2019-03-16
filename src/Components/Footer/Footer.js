@@ -12,31 +12,6 @@ class Footer extends Component {
     return (
       <div>
 
-        <div id="socials">
-
-          <h3>Connect with Us</h3>
-
-          <ul>
-          <li>
-            <a href="https://twitter.com/ubcengphys?lang=en">
-          <img alt="twitter logo" id="twitter_logo" src={twitterlogo}/>
-        </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/EngPhysProjectLab/">
-          <img alt="facebook logo" id="facebook_logo" src={facebooklogo}/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/ubcengineeringphysics/">
-        <img alt="instagram logo" id="instagram_logo" src={instagramlogo}/>
-       </a>
-     </li>
-
-   </ul>
-
-      </div>
-
       <footer id="footer">
 
         <div id="filler"></div>

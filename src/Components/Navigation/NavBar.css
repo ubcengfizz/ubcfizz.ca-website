@@ -11,8 +11,10 @@
 .nav-bar {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
+  max-width: 1440px;
   background-color: white;
   height: 10vh;
   z-index: 999;
