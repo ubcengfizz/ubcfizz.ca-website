@@ -12,31 +12,6 @@ class Footer extends Component {
     return (
       <div>
 
-        <div id="socials">
-
-          <h3>Connect with Us</h3>
-
-          <ul>
-          <li>
-            <a href="https://twitter.com/ubcengphys?lang=en">
-          <img alt="twitter logo" id="twitter_logo" src={twitterlogo}/>
-        </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/EngPhysProjectLab/">
-          <img alt="facebook logo" id="facebook_logo" src={facebooklogo}/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/ubcengineeringphysics/">
-        <img alt="instagram logo" id="instagram_logo" src={instagramlogo}/>
-       </a>
-     </li>
-
-   </ul>
-
-      </div>
-
       <footer id="footer">
 
         <div id="filler"></div>
@@ -55,17 +30,17 @@ class Footer extends Component {
       <div id="contacts">
         <div id="one-person">
         <h4>President</h4>
-        <p>Andrew Cote / Justin Kang: president@ubcfizz.com</p>
+        <p>Coleman Kaps: president@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Academic</h4>
-        <p>Esther Lin / Daniel Schultz: vpacademic@ubcfizz.com</p>
+        <p>Esther Lin / Dominic Shillingford: vpacademic@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Events</h4>
-        <p>Tiffany Quon / Sydney Seraphim: vpevents@ubcfizz.com</p>
+        <p>Richard Echegaray / Tiffany Quon / Sydney Seraphim: vpevents@ubcfizz.com</p>
         </div>
 
       </div>

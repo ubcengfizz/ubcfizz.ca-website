@@ -15,6 +15,7 @@ class About extends Component {
         return (
             <div id="container">
                 <div id="landing">
+                    <img src={banner} id="landing_banner"/>
                     <div id="description-container">
                         <h2 id="description-head">Get To Know Us</h2>
                         <div id="description-body">

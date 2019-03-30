@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Executives.css';
+import './Executives.css'
 
 class Person extends Component {    
     constructor( props ) {
