@@ -14,6 +14,7 @@ class NavBar extends Component {
         return (
             <div>
                 <SideDrawer show={ this.state.sideDrawerOpen }/>
+                <div className="nav-bar-outer">
                 <nav className="nav-bar">
 
                     <div>
@@ -53,14 +54,12 @@ class NavBar extends Component {
                                     <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
                                         Executives
                                     </NavLink>
-                                    <NavLink to="/elections" className="dropdown-item" activeClassName="dropdown-item">
-                                        Elections
-                                    </NavLink>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
+                </div>
             </div>                
         );
     }

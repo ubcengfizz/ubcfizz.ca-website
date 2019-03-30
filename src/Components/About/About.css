@@ -4,22 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:700,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300');
 
-/* Default Styles */
-
-* {
-  padding: 0;
-  margin:  0;
-}
-
-#container {
-  width: 100%;
-  background-color: #F8F8F8;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px;
-}
-
 /* Landing Styles */
 
 #landing {
@@ -139,7 +123,7 @@
   margin-bottom: 10px;
   color: #43464c;
   padding: 10px;
-  height: 470px;
+  height: 330px;
 }
 
 .announcement-description {

@@ -30,17 +30,17 @@ class Footer extends Component {
       <div id="contacts">
         <div id="one-person">
         <h4>President</h4>
-        <p>Andrew Cote / Justin Kang: president@ubcfizz.com</p>
+        <p>Coleman Kaps: president@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Academic</h4>
-        <p>Esther Lin / Daniel Schultz: vpacademic@ubcfizz.com</p>
+        <p>Esther Lin / Dominic Shillingford: vpacademic@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Events</h4>
-        <p>Tiffany Quon / Sydney Seraphim: vpevents@ubcfizz.com</p>
+        <p>Richard Echegaray / Tiffany Quon / Sydney Seraphim: vpevents@ubcfizz.com</p>
         </div>
 
       </div>
