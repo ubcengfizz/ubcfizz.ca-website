@@ -44,7 +44,7 @@ class Executives extends Component {
 
                 <Person 
                     title="Year Representatives" 
-                    name="Vacant / Lewis Mason / Nicolas Navarre and Jeremy Voldeng"
+                    name="Michelle Li / Lewis Mason / Nicolas Navarre and Jeremy Voldeng"
                     email="secondrep / thirdrep / fourthrep"
                     description="The year representatives act as liaisons between the executive team and the students of their respective years. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
                 />   
