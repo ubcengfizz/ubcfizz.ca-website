@@ -8,7 +8,7 @@
     "react-dom": "^16.5.2",
     "react-horizontal-scrolling-menu": "^0.2.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^3.4.3",
     "react-scroll-horizontal": "^1.5.1",
     "react-stack-grid": "^0.7.1"
   },
@@ -20,5 +20,17 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

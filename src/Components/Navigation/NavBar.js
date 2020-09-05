@@ -35,7 +35,7 @@ class NavBar extends Component {
 
                     <ul id="menu-list">
                         <li className="menu-list-item">
-                            <div className="menu-link">Services</div>
+                            <div className="menu-link">About Us</div>
                             <ul className="dropdown">
                                 <li>
                                     <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
@@ -45,7 +45,22 @@ class NavBar extends Component {
                             </ul>
                         </li>
 
+                        <li className="menu-list-item">
+                                                    <div className="menu-link">Resources</div>
+                                                    <ul className="dropdown">
+                                                        <li>
+                                                            <NavLink to="/CourseDir" className="dropdown-item" activeClassName="dropdown-item">
+                                                                Course Directory
+                                                            </NavLink>
+                                                        </li>
 
+                                                        <li>
+                                                            <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
+                                                                Survival Guides
+                                                            </NavLink>
+                                                        </li>
+                                                    </ul>
+                                                </li>
 
                         <li className="menu-list-item">
                             <div className="menu-link">Admin</div>
@@ -57,6 +72,7 @@ class NavBar extends Component {
                                 </li>
                             </ul>
                         </li>
+
                     </ul>
                 </nav>
                 </div>

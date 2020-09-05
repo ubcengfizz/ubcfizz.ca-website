@@ -2,7 +2,7 @@
 
 This is a React website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
 
-Before running the application, first do npm install.
+Before running the application, first do `npm install`.
 
 ## Work Flow
 
@@ -16,6 +16,19 @@ Always make your own branch when working on a task. **Do not** work on the maste
 
 
 ## Code Organization
+
+#### React Basics
+React is a JavaScript library for building user interfaces (so mostly front-end). What is neat about it is that it organizes everything into "Components", which are like classes that you use as "variables". This allows you to create components that you can reuse around different parts of the website.
+
+The code is structured in terms of this:
+
+> `/node_modules` contains the node modules you have installed (since we use node.js for package management)
+
+> `/src` contains the JS files that is used to create your website build; the components you create should be placed here
+
+> `/public` contains the actual access point of the website; for our intents and purposes you probably will not need to change it that much
+
+For more information on how to use React, visit the [official React documentation/tutorial guide](https://reactjs.org/docs/getting-started.html).
 
 ##### Server to be used
 
