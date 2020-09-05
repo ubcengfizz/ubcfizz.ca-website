@@ -5,78 +5,133 @@ import logo from '../../Images/cog.png';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 import SideDrawer from './SideDrawer/SideDrawer';
 
+//TODO: missing routes for some pages
 class NavBar extends Component {
     state = { sideDrawerOpen: false }
 
-    drawerToggleClickHandler = () => this.setState( ( props ) => ( { sideDrawerOpen: !props.sideDrawerOpen } ) );
+    drawerToggleClickHandler = () => this.setState((props) => ({ sideDrawerOpen: !props.sideDrawerOpen }));
 
     render() {
         return (
             <div>
-                <SideDrawer show={ this.state.sideDrawerOpen }/>
+                <SideDrawer show={this.state.sideDrawerOpen} />
                 <div className="nav-bar-outer">
-                <nav className="nav-bar">
+                    <nav className="nav-bar">
 
-                    <div>
-                        <DrawerToggleButton click={this.drawerToggleClickHandler} />
-                    </div>
-
-                    <NavLink to="/" className="menu-link inactive" exact activeClassName="active-logo">
-                        <div id="menu-left">
-                            <img alt="cog" id="cog" src={logo} />
-                            <div id="title">
-                                <h2>FIZZ</h2>
-                                <h5>The UBC Engineering Physics Student Association</h5>
-                            </div>
+                        <div>
+                            <DrawerToggleButton click={this.drawerToggleClickHandler} />
                         </div>
-                    </NavLink>
 
-                    <div className="spacer" />
+                        <NavLink to="/" className="menu-link inactive" exact activeClassName="active-logo">
+                            <div id="menu-left">
+                                <img alt="cog" id="cog" src={logo} />
+                                <div id="title">
+                                    <h2>FIZZ</h2>
+                                    <h5>The UBC Engineering Physics Student Association</h5>
+                                </div>
+                            </div>
+                        </NavLink>
 
-                    <ul id="menu-list">
-                        <li className="menu-list-item">
-                            <div className="menu-link">About Us</div>
-                            <ul className="dropdown">
-                                <li>
+                        <div className="spacer" />
+
+                        <ul id="menu-list">
+                            <li className="menu-list-item">
+                                <div className="menu-link">Admin</div>
+                                <ul className="dropdown">
+                                    <li>
+                                        <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
+                                            Executives
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li className="menu-list-item">
+                                <div className="menu-link">Academic
+                                
+                                </div>
+                                <ul className="dropdown">
+                                    <li>
+                                    <NavLink to="/Feedback" className="dropdown-item" activeClassName="dropdown-item">
+                                        Beef and Pizza
+                                    </NavLink>
+                                    </li>
+
+                                    <li>
+                                        <NavLink to="/CourseDir" className="dropdown-item" activeClassName="dropdown-item">
+                                            Course Directory
+                                                            </NavLink>
+                                    </li>
+
+                                    <li>
+                                        <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
+                                            Survival Guides
+                                                            </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li className="menu-list-item">
+                                <div className="menu-link">Culture
+                                
+                                </div>
+                                <ul className="dropdown">
+                                    <li>
+                                        <NavLink to="/FilmFeust" className="dropdown-item" activeClassName="dropdown-item">
+                                            Filmfeust
+                                        </NavLink>
+                                    </li>
+
+                                    <li>
+                                        <NavLink to="/Podcast" className="dropdown-item" activeClassName="dropdown-item">
+                                            Stutter Hour!
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li className="menu-list-item">
+                                <div className="menu-link">Events
+                                
+                                </div>
+                                <ul className="dropdown">
+                                    <li>
+                                        <NavLink to="/Alum" className="dropdown-item" activeClassName="dropdown-item">
+                                            Alumni Night
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li className="menu-list-item">
+                                <div className="menu-link">Services
+                           
+                                </div>
+                                <ul className="dropdown">
+                                    <li>
+                                    <a href="https://www.redbubble.com/people/ubcfizz/shop" className="dropdown-item" activeClassName="dropdown-item">
+                                        Merch
+                                    </a>
+                                    </li>
+
+                                    <li>
                                     <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
                                         FAQ
                                     </NavLink>
-                                </li>
-                            </ul>
-                        </li>
+                                    </li>
 
-                        <li className="menu-list-item">
-                                                    <div className="menu-link">Resources</div>
-                                                    <ul className="dropdown">
-                                                        <li>
-                                                            <NavLink to="/CourseDir" className="dropdown-item" activeClassName="dropdown-item">
-                                                                Course Directory
-                                                            </NavLink>
-                                                        </li>
-
-                                                        <li>
-                                                            <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
-                                                                Survival Guides
-                                                            </NavLink>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-
-                        <li className="menu-list-item">
-                            <div className="menu-link">Admin</div>
-                            <ul className="dropdown">
-                                <li>
-                                    <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
-                                        Executives
+                                    <li>
+                                    <NavLink to="/Feedback" className="dropdown-item" activeClassName="dropdown-item">
+                                        Feedback
                                     </NavLink>
-                                </li>
-                            </ul>
-                        </li>
+                                    </li>
+                                </ul>
+                            </li>
 
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
                 </div>
-            </div>                
+            </div>
         );
     }
 }

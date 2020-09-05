@@ -19,28 +19,27 @@ class Footer extends Component {
         <div id="club-location">
           <img alt="fizz logo" id="footer_fizz_logo" src={logo}/>
           <div id="location-details">UBC Engineering Physics<br/>
-      Vancouver Campus<br/>
-      6224 Agricultural Road<br/>
-      Hennings Building, Room 333A<br/>
-      Student Space: LIFE 2116<br/>
-
+            Vancouver Campus<br/>
+            6224 Agricultural Road<br/>
+            Hennings Building, Room 333A<br/>
+            Student Space: HEBB<br/>
         </div>
       </div>
 
       <div id="contacts">
         <div id="one-person">
         <h4>President</h4>
-        <p>Coleman Kaps: president@ubcfizz.com</p>
+        <p>president@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Academic</h4>
-        <p>Esther Lin / Dominic Shillingford: vpacademic@ubcfizz.com</p>
+        <p>vpacademic@ubcfizz.com</p>
         </div>
 
         <div id="one-person">
         <h4>VP Events</h4>
-        <p>Richard Echegaray / Tiffany Quon / Sydney Seraphim: vpevents@ubcfizz.com</p>
+        <p>vpevents@ubcfizz.com</p>
         </div>
 
       </div>
