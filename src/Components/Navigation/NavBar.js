@@ -109,7 +109,7 @@ class NavBar extends Component {
                                 </div>
                                 <ul className="dropdown">
                                     <li>
-                                    <a href="https://www.redbubble.com/people/ubcfizz/shop" className="dropdown-item" activeClassName="dropdown-item">
+                                    <a href="https://www.redbubble.com/people/ubcfizz/shop" target="_blank" className="dropdown-item" activeClassName="dropdown-item">
                                         Merch
                                     </a>
                                     </li>
