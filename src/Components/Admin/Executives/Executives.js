@@ -49,7 +49,7 @@ class Executives extends Component {
 
                 <Person 
                     title="Year Representatives" 
-                    name="undetermined / Michelle Li and Bridget Meyboom / Lewis Mason"
+                    name="Olivia Kim / Michelle Li and Bridget Meyboom / Lewis Mason"
                     email="secondrep / thirdrep / fourthrep"
                     img = "http://placekitten.com/200/300"
                     description="The year representatives act as liaisons between the executive team and the students of their respective years. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
