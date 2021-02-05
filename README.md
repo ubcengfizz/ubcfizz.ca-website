@@ -2,7 +2,7 @@
 
 This is a React website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
 
-Before running the application, first do `npm install`.
+Before running the application, ensure that you have [NodeJs](https://nodejs.org/en/) installed. <br> Then type `npm install` in the root of your project directory. <br> To run the app type `npm start`
 
 ## Work Flow
 
