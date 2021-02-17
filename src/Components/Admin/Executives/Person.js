@@ -14,7 +14,9 @@ class Person extends Component {
                 <div className="person">
                     <div className="title">{this.props.title}</div>
                     <div className="name">{this.props.name}</div>
-                    <div className="email">{this.props.email + " (at) ubcfizz (dot) com"}</div>
+                    <a href={"mailto:"+this.props.email +"@ubcfizz.com"} 
+                        className="email">
+                        {this.props.email + "@ubcfizz.com"}</a>
 
                     <div className="description">
                         {this.props.description}
@@ -24,7 +26,9 @@ class Person extends Component {
 
                 <div className="div-table-col">
                     <div className="photo">
-                    <img src={this.props.img}></img>
+                    <img src={this.props.img}
+                    //width="300" height="300"
+                    ></img>
                 </div></div>
 
             </div>

@@ -9,15 +9,20 @@ import '../../../Global/style2.css';
 class FilmFeust extends Component {
     render() {
         return (
-            <PageTemplate shortTitle="Film" fullTitle="FilmFeust">
+            <PageTemplate shortTitle="Film" fullTitle="FilmfEUSt">
                 <div className="cd">
                     <div className="title">FilmfEUSt: an annual student film E-week event</div>
                     <div className="content">
-                        What is FilmfEUSt you may ask? Well every year, UBC engineering students take part in 
+                        What is FilmfEUSt you may ask? Every year, UBC engineering students take part in 
                         E-Week: a week where different engineering departments compete against each other in various events.
                         One of those events is filmfEUSt! Fizz has won E-week 3 years in a row! 
                         And we've placed 2nd and 1st in filmfEUSt in the past 2 years respectively
+
+                        Check out our YouTube playlist to see all of our past videos!
                     </div>
+                    {/* <div>
+                       <ReactPlayer url="https://www.youtube.com/watch?v=uwHC5f3MJKw&list=PLFGt58bRG-WROI5Sj6zZ2NiOI6Q5wWSMV&index=1"/>
+                    </div> */}
                     <a className='btn btn-light action-button' href="https://www.youtube.com/playlist?list=PLFGt58bRG-WROI5Sj6zZ2NiOI6Q5wWSMV" target="_blank" >Check out our past videos</a>
                 </div>
 

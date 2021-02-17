@@ -31,7 +31,9 @@ class Announcements extends Component {
             enter={scaleDown.enter}
             entered={scaleDown.entered}
             leaved={scaleDown.leaved}
+            gutterWidth={2}
             columnWidth={300}>
+            
 
                 { this.state.announcements.map( this.parseAnnouncement ) }
 

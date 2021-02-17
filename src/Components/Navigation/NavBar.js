@@ -47,31 +47,6 @@ class NavBar extends Component {
                             </li>
 
                             <li className="menu-list-item">
-                                <div className="menu-link">Academic
-                                
-                                </div>
-                                <ul className="dropdown">
-                                    <li>
-                                    <NavLink to="/Feedback" className="dropdown-item" activeClassName="dropdown-item">
-                                        Beef and Pizza
-                                    </NavLink>
-                                    </li>
-
-                                    <li>
-                                        <NavLink to="/CourseDir" className="dropdown-item" activeClassName="dropdown-item">
-                                            Course Directory
-                                                            </NavLink>
-                                    </li>
-
-                                    <li>
-                                        <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
-                                            Survival Guides
-                                                            </NavLink>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li className="menu-list-item">
                                 <div className="menu-link">Culture
                                 
                                 </div>
@@ -90,7 +65,7 @@ class NavBar extends Component {
                                 </ul>
                             </li>
 
-                            <li className="menu-list-item">
+                            {/* <li className="menu-list-item">
                                 <div className="menu-link">Events
                                 
                                 </div>
@@ -101,7 +76,7 @@ class NavBar extends Component {
                                         </NavLink>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
 
                             <li className="menu-list-item">
                                 <div className="menu-link">Services
@@ -110,19 +85,13 @@ class NavBar extends Component {
                                 <ul className="dropdown">
                                     <li>
                                     <a href="https://www.redbubble.com/people/ubcfizz/shop" target="_blank" className="dropdown-item" activeClassName="dropdown-item">
-                                        Merch
+                                        Merchandise
                                     </a>
                                     </li>
 
                                     <li>
                                     <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
                                         FAQ
-                                    </NavLink>
-                                    </li>
-
-                                    <li>
-                                    <NavLink to="/Feedback" className="dropdown-item" activeClassName="dropdown-item">
-                                        Feedback
                                     </NavLink>
                                     </li>
                                 </ul>

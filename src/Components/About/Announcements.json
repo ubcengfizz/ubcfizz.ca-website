@@ -1,14 +1,14 @@
 [
    {
-        "title": "Welcome back Fizzers!",
-        "description": "Lorem ipsum whatever lol"
+        "title": "It's Reading Week!",
+        "description": "You know what that means! Stay at home and catch up on the 7 courses you haven't been paying attention to! Just kidding, have a great break everyone!"
      },
      {
-          "title": "Lol placeholder omegalul",
-          "description": "I am very mcsorry I am not a Sauder student my social media skills are -2000."
-       },
-       {
-          "title": "Soooooooooo are we gonna talk about Euler?",
-          "description": "Tf is marketing? Is that like a mathematical operation?"
-       }
-]
+         "title": "Penthouse still closed indefinitely",
+        "description": "Sorry FIZZ students, there is no Penthouse access as of now. However, if you'd like to visit a virtual rendition of it, come to our virtual parties on Gather Town!"
+     },
+     {
+      "title": "FIZZ wins E-WeeCK 2021",
+      "description": "We won E-Week...again! We placed 1st in FilmfEUSt, SongfEUSt, and Ball Model. Check out the Culture page to find the videos! Special thanks to everyone who participated."
+   }                     
+ ]
