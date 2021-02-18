@@ -1,8 +1,24 @@
 {
-  "main.css": "static/css/main.9dfe4081.css",
-  "main.css.map": "static/css/main.9dfe4081.css.map",
-  "main.js": "static/js/main.8146752b.js",
-  "main.js.map": "static/js/main.8146752b.js.map",
-  "static\\media\\background2.png": "static/media/background2.4f57deea.png",
-  "static\\media\\fizz-logo.svg": "static/media/fizz-logo.20e54dcd.svg"
+  "files": {
+    "main.css": "/fizz/static/css/main.d29f6cd6.chunk.css",
+    "main.js": "/fizz/static/js/main.4aaedb91.chunk.js",
+    "main.js.map": "/fizz/static/js/main.4aaedb91.chunk.js.map",
+    "runtime-main.js": "/fizz/static/js/runtime-main.4983071a.js",
+    "runtime-main.js.map": "/fizz/static/js/runtime-main.4983071a.js.map",
+    "static/js/2.5f49d924.chunk.js": "/fizz/static/js/2.5f49d924.chunk.js",
+    "static/js/2.5f49d924.chunk.js.map": "/fizz/static/js/2.5f49d924.chunk.js.map",
+    "index.html": "/fizz/index.html",
+    "precache-manifest.0e3756d580e068a293c6a5f8c0e19cd2.js": "/fizz/precache-manifest.0e3756d580e068a293c6a5f8c0e19cd2.js",
+    "service-worker.js": "/fizz/service-worker.js",
+    "static/css/main.d29f6cd6.chunk.css.map": "/fizz/static/css/main.d29f6cd6.chunk.css.map",
+    "static/js/2.5f49d924.chunk.js.LICENSE.txt": "/fizz/static/js/2.5f49d924.chunk.js.LICENSE.txt",
+    "static/media/background2.png": "/fizz/static/media/background2.4f57deea.png",
+    "static/media/fizz-logo.svg": "/fizz/static/media/fizz-logo.20e54dcd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4983071a.js",
+    "static/js/2.5f49d924.chunk.js",
+    "static/css/main.d29f6cd6.chunk.css",
+    "static/js/main.4aaedb91.chunk.js"
+  ]
 }
