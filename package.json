@@ -1,7 +1,6 @@
 {
   "name": "eng-phys",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "-": "0.0.1",
     "@material-ui/core": "^3.2.0",
@@ -16,7 +15,7 @@
     "react-stack-grid": "^0.7.1",
     "save-dev": "0.0.1-security"
   },
-  "homepage": "http://ubcengfizz.github.io/fizz",
+  "homepage": "http://ubcengfizz.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
