@@ -8,6 +8,9 @@ Before running the application, ensure that you have [NodeJs](https://nodejs.org
 
 ## Work Flow
 
+
+### Building
+After making your edits, to complete your build and push it to the `gh-pages` branch, run `npm run deploy`. [Read this](https://stackoverflow.com/questions/61821700/why-does-app-work-on-local-host-but-does-not-on-github-pages) if you run into any issues.
 ##### Issue Distribution
 
 When you are working on a task (an **issue**), assign that issue to yourself on the "Issues" tab. Do not work on an issue you have not assigned yourself, because this will eventually lead to two or more people working on the same issue without knowing that others are also working on it. This wastes both time and effort. If it happens, a game of rock-paper-scissors will take place to determine who gets to merge their version to the master branch (just kidding!).
