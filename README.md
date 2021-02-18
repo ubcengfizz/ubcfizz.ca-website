@@ -1,8 +1,10 @@
 ## Engineering Physics Student Association Website
 
-This is a React website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc.
+This is a React website to be used for The UBC Engineering Physics Student Association. Its uses include recent announcements, course directory, community events, related contacts, etc. [Link](www.ubcfizz.com)
 
-Before running the application, ensure that you have [NodeJs](https://nodejs.org/en/) installed. <br> Then type `npm install` in the root of your project directory. <br> To run the app type `npm start`
+## Dependencies
+
+Before running the application, ensure that you have [NodeJs](https://nodejs.org/en/) installed. <br> Then type `npm install` in the root of your project directory. To run the app type `npm start`. This project was built on NodeJS version 5.
 
 ## Work Flow
 
