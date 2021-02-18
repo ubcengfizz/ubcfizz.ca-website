@@ -15,13 +15,13 @@
     "react-scroll-horizontal": "^1.6.6",
     "react-stack-grid": "^0.7.1"
   },
-  "homepage": "http://ubcengfizz.github.io/src/",
+  "homepage": "http://ubcengfizz.github.io/src/app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm   run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
