@@ -17,7 +17,7 @@
     "react-stack-grid": "^0.7.1",
     "save-dev": "0.0.1-security"
   },
-  "homepage": "http://ubcengfizz.github.io",
+  "homepage": "http://ubcengfizz.github.io/fizz",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
