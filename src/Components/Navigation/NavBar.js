@@ -94,6 +94,12 @@ class NavBar extends Component {
                                         FAQ
                                     </NavLink>
                                     </li>
+
+                                    <li>
+                                    <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
+                                        Survive
+                                    </NavLink>
+                                    </li>
                                 </ul>
                             </li>
 
