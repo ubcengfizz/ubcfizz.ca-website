@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import './FAQ.css';
 import PageTemplate from '../../Global/PageTemplate';
 
+//TODO: Clean up this code cuz I just inspect elemented it from our old website
 class Survive extends Component {
     render() {
         return (
@@ -41,9 +42,9 @@ class Survive extends Component {
                         of all, how to make the most of the whole experience.</span></div>
                     <div className="content"><span lang="EN-CA">
                         Read the rest of this guide and slot it
-                    into the folder marked “learning resources” in your colour-coded,
-                    cross-referenced filing cabinet (what…you don’t have one yet?) for your next
-        scheduled panic attack.</span></div>
+                        into the folder marked “learning resources” in your colour-coded,
+                        cross-referenced filing cabinet (what…you don’t have one yet?) for your next
+                        scheduled panic attack.</span></div>
                     <div className="content"><span lang="EN-CA">But don’t stop there. Ask questions of the
                         brave souls who have gone before you about Engineering Physics. The upper year
                         students are fond of ranting bitterly about the bad things and raving
@@ -59,10 +60,10 @@ class Survive extends Component {
                     of other disciplines are going to look at you funny and may think of you as a
                     nutcase for choosing a program that can be a little… er… intense. But the good
                     news is that you’re going to make it through, and this guide is here to help.</div>
-&nbsp;<br />
+                    &nbsp;<br />
 
                     <h3><a name="TOC-What-is-Engineering-Physics-"></a>What is Engineering Physics? </h3>
-&nbsp;<br />
+                    &nbsp;<br />
                     <div className="content"><span lang="EN-CA">Well, you might struggle with when trying
                     to explain to people what it is that you’re studying in school. Essentially,
                     Engineering Physics is the bridge between Engineering and Science, where
@@ -91,38 +92,32 @@ class Survive extends Component {
                     The international world of soccer provides a good background upon which to compare engineering
                     disciplines.
                     <br />
-                    &nbsp;<br /><b><i>
-                                            Electrical Engineers</i></b>&nbsp; <br />
+                    &nbsp;<br />
+                    <b><i>Electrical Engineers</i></b>&nbsp; <br />
                     They are the German national team. They play by the book. They are formal, rigid and regimented. <br />
-                    &nbsp;<br /><b><i>
-                                            Mechanical Engineers</i></b>&nbsp; <br />
+                    &nbsp;<br /><b><i>Mechanical Engineers</i></b>&nbsp; <br />
                     They are the English players. They like to kick the long shots, hope to get lucky and generally enjoy
-                    the
-                    game. <br />
-                    &nbsp;<br /><b><i>
-                                            Engineering Physicists</i></b>&nbsp; <br />
+                    the game. <br />
+                    &nbsp;<br /><b><i>Engineering Physicists</i></b>&nbsp; <br />
                     We are the South American teams. We are creative, flashy and we like tricks. However, we can be stubborn
-                    and
-                    arrogant. We work hard and we are used to winning. <br />
+                    and arrogant. We work hard and we are used to winning. <br />
                     &nbsp;<br />
 
                         <h3><a name="TOC-What-can-I-do-with-an-Engineering-Physics-degree-"></a>
                             What can I do with an Engineering Physics degree? 
                         </h3>
-    &nbsp;<br />
+                    &nbsp;<br />
                         <div className="content"><span lang="EN-CA">You can do pretty much anything you want.
                         The broad educational background prepares you for rapid changes in technology
                         as it gives you the tools to learn and adapt to any situation. If there’s a
                         piece of leading edge technology that piques your interest, it’s likely an
-            Engineering Physics graduate has had a hand in it.</span></div>
+                        Engineering Physics graduate has had a hand in it.</span></div>
                         <div className="content"><span lang="EN-CA">Fizzers often go on to work in
-            industry.<span>&nbsp; </span>Pursuing graduate studies, in
-            Physics, Engineering, or other fields, is another popular option.<span>&nbsp; </span>However,
-            one of
-            the great strengths of an
-            Engineering Physics degree is the broad range of options available.</span></div>
-                        <div className="content">Here are a couple examples of what Fizz
-        grads are now doing:</div>
+                        industry.<span>&nbsp; </span>Pursuing graduate studies, in
+                        Physics, Engineering, or other fields, is another popular option.<span>&nbsp; </span>However,
+                        one of the great strengths of an
+                        Engineering Physics degree is the broad range of options available.</span></div>
+                        <div className="content">Here are a couple examples of what Fizz grads are now doing:</div>
                         <div className="content"><span lang="EN-CA">&nbsp;Bjarni Tryggvason<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Former
             Canadian Astronaut</span></div>
                         <div className="content"><span lang="EN-CA">&nbsp;Raymond Chan <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -147,13 +142,11 @@ class Survive extends Component {
             of Techware (acquired by Brooks Automation), also worked as a venture
             capitalist for Venture West</span></div>
                         <div className="content"><span lang="EN-CA">&nbsp;Andre
-            Marziali<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Director
-            of
-            Engineering Physics,
-            Founder of Boreal Genomics Inc.</span></div>
+            Marziali<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Director of
+            Engineering Physics, Founder of Boreal Genomics Inc.</span></div>
                         <div className="content"><span lang="EN-CA">&nbsp;</span></div>
-                        <div className="content"><span lang="EN-CA">&nbsp;Other examples of what grads have gone on
-            to become are:</span></div>
+                        <div className="content"><span lang="EN-CA">&nbsp;
+                        Other examples of what grads have gone on to become are:</span></div>
                         <ul >
                             <li><span lang="EN-CA">Professors</span></li>
                         </ul>
@@ -169,52 +162,63 @@ class Survive extends Component {
     &nbsp;<br />
     &nbsp;
 
-    <h3><a name="TOC-The-who-s-who-of-Eng-Phys"></a>The who’s who of Eng Phys
-    </h3><br /><b><i><span >Dr. Andre Marziali, Engineering Physics
-                Director&nbsp;</span></i></b><span ><br /></span><br />Dr. Marziali is a
+    <h3><a name="TOC-The-who-s-who-of-Eng-Phys"></a>The who’s who of Eng Phys</h3>
+    <br />
+    <b><i><span >Dr. Andre Marziali, Engineering Physics Director&nbsp;</span></i></b>
+    <span ><br /></span><br />Dr. Marziali is a
     friendly, approachable, and knowledgeable person who is always glad to help students. Fizzers know him
-    best
-    for his robotics course, which is taken in the summer after second year, and is one of the highlights of
-    the
-    Engineering Physics program. Dr. Marziali is a UBC Fizz alumnus, so you can always remember that he’s
-    been
-    through everything you’re going through. He also runs a genomics technology development lab with the
-    Physics
-    Department.&nbsp;<br /><br /><b>Email:</b> andre@physics.ubc.ca&nbsp;<div><b>Phone:</b>
-        604-822-5489&nbsp;<br /><b>Office:</b> Chem/Phys A039<br /><br /><br /><b><i>Eileen Campbell, Engineering
-                Physics Program Coordinator</i></b><i>&nbsp;</i><br /><br />As the Program Coordinator, Eileen
-        is in
-        charge of the behind-the-scenes administration. If you’re having trouble registering for a course
-        she
-        will do her best to get you in it. She also organizes your standard timetables and makes sure you
-        take
-        all the courses you need in order to graduate.&nbsp;<br /><br /><b>Email:</b>
-        campbell@physics.ubc.ca&nbsp;<br /><b>Phone:</b> 604-822-6451&nbsp;<br /><b>Office:</b> Henn
-        333A&nbsp;<br /><br /><br /><b><i>Aleysha Arndt, Engineering Physics Co-op
-                Coordinator&nbsp;</i></b><br /><br />Not sure if your résumé is up to par? Uncertain about what
-        to
-        say during interviews? Want to develop your own co-op job but aren’t sure where to start? Whether
+    best for his robotics course, which is taken in the summer after second year, and is one of the highlights of
+    the Engineering Physics program. Dr. Marziali is a UBC Fizz alumnus, so you can always remember that he’s
+    been through everything you’re going through. He also runs a genomics technology development lab with the
+    Physics Department.&nbsp;<br /><br />
+
+        <b>Email:</b> andre@phas.ubc.ca&nbsp;<div>
+            {/*<b>Phone:</b>
+        604-822-5489&nbsp;<br />
+        <b>Office:</b> Chem/Phys A039*/}
+        
+        <br /><br /><br />
+
+        <b><i>Eileen Campbell, Engineering Physics Program Coordinator</i></b><i>&nbsp;</i><br /><br />
+        As the Program Coordinator, Eileen
+        is in charge of the behind-the-scenes administration. If you’re having trouble registering for a course
+        she will do her best to get you in it. She also organizes your standard timetables and makes sure you
+        take all the courses you need in order to graduate.&nbsp;<br /><br />
+        <b>Email:</b>campbell@physics.ubc.ca&nbsp;<br />
+        {/*<b>Phone:</b> 604-822-6451&nbsp;<br /><b>Office:</b> Henn 333A&nbsp;<br /><br /><br />*/}
+
+        <b><i>Safder Raza, Engineering Physics Co-op Coordinator&nbsp;</i></b><br /><br />
+        Not sure if your résumé is up to par? Uncertain about what
+        to say during interviews? Want to develop your own co-op job but aren’t sure where to start? Whether
         it’s
-        your first or your last co-op job, Aleysha will help you find and land that job you’re looking
-        for.&nbsp;<br /><br /><b>Email:</b> epcoop@physics.ubc.ca&nbsp;</div>
-                        <div><b>Phone:</b> 604-822-1384&nbsp;<br /><b>Office:</b> Chem/Phys 170&nbsp;<br /><br /><br /></div>
-                        <div><b><i>Dr. Jon Nakane, Engineering Physics Project Lab&nbsp;</i></b><br /><br />Dr. Jon Nakane, has
-        stepped
-        up from being the Lab Manager after Dr. Harold Davis retired in early 2007. Jon has been heavily
-        involved in the robotics course and brings the same approachability and been-there experience to the
-        table.&nbsp;<br /><br /><b>Email:</b> jnakane@phas.ubc.ca&nbsp;<br /><b>Office:</b> Eng Phys Project Lab,
-        Henn
-        115&nbsp;<br /><b>Website:</b> http://www.engphys.ubc.ca/projectlab/&nbsp;<br /><br /><br /><i><b>Bernhard
-                Zender, Engineering Physics Project Lab&nbsp;</b></i><br /><br />Need something waterjetted? Or
-        advice on mechanical design? Talk to Bernhard, and you will find that many of your project problems
-        disappear quickly with his help!&nbsp;<br /><br /><b>Email:</b>
-        bzender@phas.ubc.ca&nbsp;<br /><b>Office:</b>
-        Eng Phys Project Lab, Henn 115<br />
-        &nbsp;<br />
-                            <h3><a name="TOC-Definitions"></a>Definitions </h3>
-        &nbsp; <br />
-        Terms used throughout the Survival Guide you might not readily be familiar with. <br />&nbsp;
-    </div>
+        your first or your last co-op job, Safder will help you find and land that job you’re looking
+        for.&nbsp;<br /><br /><b>Email:</b> engphys@sciencecoop.ubc.ca&nbsp;</div>
+        <div>
+            {/*<b>Phone:</b> 604-822-1384&nbsp;<br />*/}
+            <b>Office:</b> Chem/Phys 170&nbsp;<br /><br /><br /></div>
+
+        <div>
+            <b><i>Dylan Gunn, Engineering Physics Project Lab&nbsp;</i></b><br /><br />
+            {/** TODO: Change this to a description that fits Dylan */}
+            Dr. Jon Nakane, has stepped
+            up from being the Lab Manager after Dr. Harold Davis retired in early 2007. Jon has been heavily
+            involved in the robotics course and brings the same approachability and been-there experience to the
+            table.&nbsp;<br /><br />
+            <b>Email:</b> dcgunn@phas.ubc.ca&nbsp;<br />
+            <b>Office:</b> Eng Phys Project Lab, Henn 115&nbsp;<br />
+            <b>Website:</b> http://www.engphys.ubc.ca/projectlab/&nbsp;<br /><br /><br />
+            
+            <i><b>Bernhard Zender, Engineering Physics Project Lab&nbsp;</b></i><br /><br />
+            Need something waterjetted? Or
+            advice on mechanical design? Talk to Bernhard, and you will find that many of your project problems
+            disappear quickly with his help!&nbsp;<br /><br />
+            <b>Email:</b>bzender@phas.ubc.ca&nbsp;<br /><b>Office:</b>
+            Eng Phys Project Lab, Henn 115<br />
+            &nbsp;<br />
+            <h3><a name="TOC-Definitions"></a>Definitions </h3>
+            &nbsp; <br />
+            Terms used throughout the Survival Guide you might not readily be familiar with. <br />&nbsp;
+        </div>
                         <div><b>Fizz</b><span><b>&nbsp;&nbsp; &nbsp;<span>&nbsp;&nbsp; &nbsp;<span>&nbsp;&nbsp;
                         &nbsp;&nbsp;</span></span></b></span>An elite organization comprised of students of
         supreme intellect and of a &nbsp;<blockquote >
@@ -277,16 +281,17 @@ class Survive extends Component {
         the
         honour system.</div>
                         <div><br /></div>
-                        <div><b>Carrel</b><span><b>&nbsp;&nbsp; &nbsp;<span>&nbsp;&nbsp; &nbsp;</span></b></span>There are study
-        carrels in the Penthouse, in the hallway between the two&nbsp;<blockquote
-                            >
+                        <div>
+                            {/* 
+                            <b>Carrel</b><span><b>&nbsp;&nbsp; &nbsp;<span>&nbsp;&nbsp; &nbsp;</span></b></span>
+                            There are study carrels in the Penthouse, in the hallway between the two&nbsp;
+                            <blockquote >
                                 <span>&nbsp;&nbsp; &nbsp;<span>&nbsp;&nbsp; &nbsp;</span></span>common rooms.&nbsp; With a few
-            exceptions (Carrels 1-4, usually), these carrels&nbsp;<br /><span>&nbsp;&nbsp;
-                &nbsp;<span>&nbsp;&nbsp; &nbsp;</span></span>are unlocked and open to anybody wishing to
-            study
-            in private. &nbsp;
-        </blockquote><b>
-                            </b>
+                            exceptions (Carrels 1-4, usually), these carrels&nbsp;<br /><span>&nbsp;&nbsp;
+                                &nbsp;<span>&nbsp;&nbsp; &nbsp;</span></span>are unlocked and open to anybody wishing to
+                            study in private. &nbsp;
+                        </blockquote>
+                        */}
         &nbsp;<br />
                             <h2><a name="TOC-Courses"></a>Courses </h2>
         &nbsp; <br />
@@ -522,26 +527,26 @@ class Survive extends Component {
                         This
                         is much more difficult compared to a regular co-op job, however, the experience could be very
                         rewarding.
-        For more information contact the Co-op Coordinator. <br /><br /><br /><b>Technical Experience</b></div>
+        For more information contact the Co-op Coordinator. <br /><br /><br />
+        
+        <b>Technical Experience</b></div>
                         <div>Similar in scope to the Project Lab projects, you choose a project and write a big report after
                         several
                         months of work…usually unpaid. The good part is this would require only as much work as a regular
                         work
                         term and you get some choice as to what project you work on. For more information see Jon Nakane
-                        about
-        projects and sponsor companies. <br /><br /><br /><b>Opting Out of Co-op</b></div>
+                        about projects and sponsor companies. <br /><br /><br />
+        
+        <b>Opting Out of Co-op</b></div>
                         <div>Although there are alternatives to completing co-op, students are strongly encouraged to
                         participate in
         the coop program to gain technical and industry experience. Opting out of the <br />Engineering
         Physics
         Co-op program is possible, however you must still fulfill technical experience requirements. This
         includes working for at least 8 months of work in an engineering <br />related field, and/or
-        completing an
-        industry sponsored project in APSC 459, APSC 479 or APSC 480*. If you choose to opt out of co-op you
-        must notify and speak with Dr. Marziali. <br /><br />* APSC 480 is an additional project course regular
-        Engineering Physics students have the option of taking. However, in most cases if you choose to opt
-        out
-        of co-op, this additional project course is mandatory. &nbsp;<br />
+        completing an industry sponsored project in ENPH 459, ENPH 479 or APSC 486*.
+        <br /><br />* APSC 486 is known as New Venture Design, an additional project course regular
+        Engineering students have the option of taking. It may replace ENPH 479 or it could count as a tech elective &nbsp;<br />
                             <br />
 
                             <h2><a name="TOC-Beyond-the-Program"></a>Beyond the Program </h2>
@@ -662,35 +667,34 @@ class Survive extends Component {
                             particular sport or event you would like to take part in, contact our Sports
                 Rep.</span></div>&nbsp;
     </div>
-                        <div><span >Mailing Lists</span><br />Fizz has setup multiple
-        mailing
-        lists to
-        quickly and efficiently distribute pertinent information within the program.
-        There is a general mailing list for all Fizzers, as well as separate mailing
-        lists for each year. It is extremely important that you are signed up for these
-        mailings lists. Weekly emails from the President, as well as other messages
-        regarding social events, academics, and miscellaneous info will be sent through
-        these lists frequently. You are welcome to send emails to a particular mailing
-        list, but it must meet the following criterion:&nbsp;<br /><br />
+    {/** 
+                        <div><span >Mailing Lists</span><br />Fizz has setup multiple mailing lists to
+                            quickly and efficiently distribute pertinent information within the program.
+                            There is a general mailing list for all Fizzers, as well as separate mailing
+                            lists for each year. It is extremely important that you are signed up for these
+                            mailings lists. Weekly emails from the President, as well as other messages
+                            regarding social events, academics, and miscellaneous info will be sent through
+                            these lists frequently. You are welcome to send emails to a particular mailing
+                            list, but it must meet the following criterion:&nbsp;<br /><br />
                             <ul>
                                 <li>It is NOT spam, pr0n, or pointless banter&nbsp;</li>
-                                <li>It is NOT a political advertisement (e.g. you are running for an elected position)&nbsp;
-            </li>
+                                <li>It is NOT a political advertisement (e.g. you are running for an elected position)&nbsp;</li>
                                 <li>It is NOT an advertisement to buy or sell miscellaneous paraphernalia&nbsp;</li>
                                 <li>It IS applicable / relevant to the majority of students on the list&nbsp;</li>
                             </ul>
                             <div className="content"><span lang="EN-CA">You can reach everyone in a particular year
-                by sending an e-mail to fizz#@<a href="http://phas.ubc.ca/" rel="nofollow"
-                                    target="_blank">phas.ubc.ca</a>,
-                with the # replaced by the year number you want (eg. <a href="mailto:fizz2@phas.ubc.ca"
-                                    target="_blank">fizz2@phas.ubc.ca</a> to reach
-                all 2<sup>nd</sup> years). &nbsp;If you want to reach the entire Fizz
-                population, simply send an e-mail to <a href="mailto:fizz@phas.ubc.ca"
-                                    target="_blank">fizz@phas.ubc.ca</a>.</span></div>
-                            <div className="content"><span lang="EN-CA">If you are not receiving emails from the
-                mailing list, or want to be added, contact our Computer Administrator.</span></div>
-        &nbsp;&nbsp;
-    </div>
+                            by sending an e-mail to fizz#@<a href="http://phas.ubc.ca/" rel="nofollow"
+                                                target="_blank">phas.ubc.ca</a>,
+                            with the # replaced by the year number you want (eg. <a href="mailto:fizz2@phas.ubc.ca"
+                                                target="_blank">fizz2@phas.ubc.ca</a> to reach
+                            all 2<sup>nd</sup> years). &nbsp;If you want to reach the entire Fizz
+                            population, simply send an e-mail to <a href="mailto:fizz@phas.ubc.ca"
+                                                target="_blank">fizz@phas.ubc.ca</a>.</span></div>
+                                        <div className="content"><span lang="EN-CA">If you are not receiving emails from the
+                            mailing list, or want to be added, contact our Computer Administrator.</span></div>
+                    &nbsp;&nbsp;
+                </div>
+                */}
                         <div>
                             <h3><a name="TOC-Keys"></a>Keys</h3>
         &nbsp;<br />1. <span>&nbsp;&nbsp; &nbsp;</span>Decide what key(s) you want and get in touch with the
@@ -800,11 +804,11 @@ class Survive extends Component {
                                     on the last day of classes, to STUdeNT projects, the EUS has many traditions to partake
                                     in.
                                     For more information about the EUS, as well as information on how to volunteer, visit
-                    www.ubcengineers.ca <br /><br /></div>
+                                    www.ubcengineers.ca <br /><br /></div>
                                 </div>
                                 <div><br />
                                     <h3><a name="TOC-Vancouver-Student-Entrepreneurship-Association"></a>Vancouver Student
-                    Entrepreneurship Association</h3>
+                                Entrepreneurship Association</h3>
                                 </div>
                                 <div>The Vancouver Student Entrepreneurship Association, founded by a group of Engineering
                                 Physics
@@ -817,7 +821,7 @@ class Survive extends Component {
                                 sessions with industry professionals and university faculty allow students to establish
                                 mentors
                                 within the entrepreneurship community that can help bring their designs to life. For more
-                information on upcoming events, visit www.vsea.ca</div>
+                                information on upcoming events, visit www.vsea.ca</div>
                                 <div>&nbsp;<br />
 
                                     <h2><a name="TOC-Tips-Strategies-and-Encouragements-"></a>Tips, Strategies and
@@ -826,8 +830,8 @@ class Survive extends Component {
                                 <h3><a name="TOC-Where-to-Find-Old-Exams-Midterms-"></a>Where to Find Old Exams/Midterms&nbsp;
             </h3>
                                 <ul>
-                                    <li>The Fizz Course Directory: www.ubcfizz.com/course-directory&nbsp;</li>
-                                    <li>AMS Exam Database: http://www.ams.ubc.ca/exams/&nbsp;</li>
+                                    {/*<li>The Fizz Course Directory: www.ubcfizz.com/course-directory&nbsp;</li>*/}
+                                    {/*<li>AMS Exam Database: http://www.ams.ubc.ca/exams/&nbsp;</li>*/}
                                     <li>Your instructor&nbsp;</li>
                                     <li>Upper year students&nbsp;</li>
                                     <li>UBC Math Club (math exam packages)&nbsp;</li>
