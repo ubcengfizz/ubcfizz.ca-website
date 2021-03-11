@@ -103,7 +103,7 @@ class NavBar extends Component {
 
                                     <li>
                                     <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
-                                        Survive
+                                        Fizz Survival Guide
                                     </NavLink>
                                     </li>
                                 </ul>
