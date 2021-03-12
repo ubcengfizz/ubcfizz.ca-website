@@ -42,6 +42,12 @@ class NavBar extends Component {
                                         <NavLink to="/executives" className="dropdown-item" activeClassName="dropdown-item">
                                             Executives
                                         </NavLink>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1BEgvkOgJ3Wib2Szz8St8hhT85GjHZL8t/view?usp=sharing" target="_blank" className="dropdown-item" activeClassName="dropdown-item">
+                                            Constitution
+                                        </a>
                                     </li>
                                 </ul>
                             </li>
@@ -92,6 +98,12 @@ class NavBar extends Component {
                                     <li>
                                     <NavLink to="/faq" className="dropdown-item" activeClassName="dropdown-item">
                                         FAQ
+                                    </NavLink>
+                                    </li>
+
+                                    <li>
+                                    <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
+                                        Fizz Survival Guide
                                     </NavLink>
                                     </li>
                                 </ul>
