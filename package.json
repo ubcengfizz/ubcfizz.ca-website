@@ -10,7 +10,7 @@
     "react-dom": "^16.5.2",
     "react-horizontal-scrolling-menu": "^0.2.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-scroll-horizontal": "^1.5.1",
     "react-stack-grid": "^0.7.1",
     "save-dev": "0.0.1-security"
