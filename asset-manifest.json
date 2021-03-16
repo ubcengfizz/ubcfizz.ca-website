@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.2e2d4574.chunk.css",
-    "main.js": "/static/js/main.f3cbe5ad.chunk.js",
-    "main.js.map": "/static/js/main.f3cbe5ad.chunk.js.map",
+    "main.js": "/static/js/main.d0d6e7fe.chunk.js",
+    "main.js.map": "/static/js/main.d0d6e7fe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c826346e.js",
     "runtime-main.js.map": "/static/js/runtime-main.c826346e.js.map",
-    "static/js/2.6e99c2a9.chunk.js": "/static/js/2.6e99c2a9.chunk.js",
-    "static/js/2.6e99c2a9.chunk.js.map": "/static/js/2.6e99c2a9.chunk.js.map",
+    "static/js/2.16afaaf7.chunk.js": "/static/js/2.16afaaf7.chunk.js",
+    "static/js/2.16afaaf7.chunk.js.map": "/static/js/2.16afaaf7.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.2e2d4574.chunk.css.map": "/static/css/main.2e2d4574.chunk.css.map",
-    "static/js/2.6e99c2a9.chunk.js.LICENSE.txt": "/static/js/2.6e99c2a9.chunk.js.LICENSE.txt",
+    "static/js/2.16afaaf7.chunk.js.LICENSE.txt": "/static/js/2.16afaaf7.chunk.js.LICENSE.txt",
     "static/media/background2.9e947937.png": "/static/media/background2.9e947937.png",
     "static/media/fizz-logo.67095089.svg": "/static/media/fizz-logo.67095089.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c826346e.js",
-    "static/js/2.6e99c2a9.chunk.js",
+    "static/js/2.16afaaf7.chunk.js",
     "static/css/main.2e2d4574.chunk.css",
-    "static/js/main.f3cbe5ad.chunk.js"
+    "static/js/main.d0d6e7fe.chunk.js"
   ]
 }
