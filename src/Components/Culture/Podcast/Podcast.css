@@ -8,12 +8,14 @@
     margin-top: 3px;
     font-size: 2em;
     color: #4b4343;
+    margin-bottom: 10px;
 }
 
 .content {
     margin-top: 20px;
     font-family: 'Raleway';
     font-size: 1.07em;
+    margin-bottom: 20px;
 }
 
 .cd {

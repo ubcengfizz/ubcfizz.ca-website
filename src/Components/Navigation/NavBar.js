@@ -101,6 +101,12 @@ class NavBar extends Component {
                                     </NavLink>
                                     </li>
 
+                                    {/* <li>
+                                    <NavLink to="/Course" className="dropdown-item" activeClassName="dropdown-item">
+                                        Course Directory
+                                    </NavLink>
+                                    </li> */}
+
                                     <li>
                                     <NavLink to="/Survive" className="dropdown-item" activeClassName="dropdown-item">
                                         Fizz Survival Guide

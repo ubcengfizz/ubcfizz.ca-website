@@ -10,6 +10,14 @@
     color: #4b4343;
 }
 
+.filmtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #4b4343;
+}
+
 .content {
     margin-top: 20px;
     font-family: 'Raleway';
