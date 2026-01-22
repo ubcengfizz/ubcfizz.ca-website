@@ -21,6 +21,9 @@ import harriet from '../../../Images/current-execs/harriet.png';
 import rachel from '../../../Images/current-execs/rachel.png';
 import paige from '../../../Images/current-execs/paige.png';
 import zavary from '../../../Images/current-execs/zavary.png';
+import emiko from '../../../Images/current-execs/emiko.jpg';
+import yuvraj from '../../../Images/current-execs/yuvraj.jpg';
+import daniel from '../../../Images/current-execs/daniel.jpg';
 
 
 class Executives extends Component {
@@ -113,16 +116,20 @@ class Executives extends Component {
 
                 <Person 
                     title="VP Professional Development" 
-                    name="TBD"
+                    name="Emiko Wijeysundera"
                     email="prof.dev"
                     description="Focuses on career-related initiatives, including organizing resume workshops, networking events, and company tours to support students in their professional growth. This role liaises with industry representatives and alumni to provide valuable career-building opportunities."
+                    img1={no_image}
+                    img2={emiko}
                 /> 
 
                 <Person 
                     title="Social Media Manager" 
-                    name="TBD"
+                    name="Yuvraj Chenna"
                     email="social.media"
                     description="Handles the Student Council's online presence, including social media accounts and promotional materials. This role involves creating engaging content, managing event announcements, and ensuring students stay informed about council activities."
+                    img1={no_image}
+                    img2={yuvraj}
                 />  
 
                 <Person
@@ -154,9 +161,11 @@ class Executives extends Component {
 
                 <Person 
                     title="Second Year Representative" 
-                    name="TBD"
+                    name="Daniel Ma"
                     email="second.year"
                     description="The Second Year Rep act as liaisons between the executive team and the students of the Second Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
+                    img1={no_image}
+                    img2={daniel}
                 />
             </PageTemplate>
         );
