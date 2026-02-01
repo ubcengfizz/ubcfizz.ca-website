@@ -24,6 +24,7 @@ import zavary from '../../../Images/current-execs/zavary.png';
 import emiko from '../../../Images/current-execs/emiko.jpg';
 import yuvraj from '../../../Images/current-execs/yuvraj.jpg';
 import daniel from '../../../Images/current-execs/daniel.jpg';
+import aryan from '../../../Images/current-execs/aryan.jpg';
 
 
 class Executives extends Component {
@@ -136,7 +137,7 @@ class Executives extends Component {
                     title="Graduate Representative" 
                     name="Paige Hall, Zavary Koehn"
                     email="grad"
-                    description="The grad rep acts as the year rep for the 5th year class, liasing between Fizz Council and the graduating class of Engineering Physics. The grad rep also coordinates additional activities for graduation: grad trip, iron ring ceremony, grad photos, and Slipsticks."
+                    description="The Grad Reps act as the year rep for the 5th year class, liasing between Fizz Council and the graduating class of Engineering Physics. The grad rep also coordinates additional activities for graduation: grad trip, iron ring ceremony, grad photos, and Slipsticks."
                     img1={paige}
                     img2={zavary}
                 />
@@ -145,7 +146,7 @@ class Executives extends Component {
                     title="Fourth Year Representative" 
                     name="Rachel Miner"
                     email="fourth.year"
-                    description="The Fourth Year Rep act as liaisons between the executive team and the students of the Fourth Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
+                    description="The Fourth Year Rep acts as a liaisons between the executive team and the students of the Fourth Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
                     img1={no_image}
                     img2={rachel}
                 />
@@ -154,7 +155,7 @@ class Executives extends Component {
                     title="Third Year Representative" 
                     name="Ryan Mahinpey"
                     email="third.year"
-                    description="The Third Year Rep act as liaisons between the executive team and the students of the Third Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
+                    description="The Third Year Rep acts as a liaisons between the executive team and the students of the Third Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
                     img1={no_image}
                     img2={ryan}
                 />
@@ -163,9 +164,9 @@ class Executives extends Component {
                     title="Second Year Representative" 
                     name="Daniel Ma"
                     email="second.year"
-                    description="The Second Year Rep act as liaisons between the executive team and the students of the Second Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
-                    img1={no_image}
-                    img2={daniel}
+                    description="The Second Year Reps act as liaisons between the executive team and the students of the Second Year Class. They are responsible for informing students about the current activities of the club, selling tickets for pertinent events and helping to organize and execute many of the academic and social events."
+                    img1={daniel}
+                    img2={aryan}
                 />
             </PageTemplate>
         );
