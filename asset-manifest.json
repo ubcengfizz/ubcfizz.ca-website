@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.972c1ecd.css",
+    "main.js": "/static/js/main.6e98ec78.js",
+    "static/media/tumi.png": "/static/media/tumi.bfa609c68ac217c17136.png",
+    "static/media/jawad.jpg": "/static/media/jawad.835c1d816cf8a4a88437.jpg",
+    "static/media/ryan.png": "/static/media/ryan.ed249ff5eedc0346d78d.png",
+    "static/media/josh_heu.png": "/static/media/josh_heu.b1dd549884f6eca5fb0a.png",
+    "static/media/harriet.png": "/static/media/harriet.868a1a4b91c6ca09aea0.png",
+    "static/media/ari.png": "/static/media/ari.7ac7a1b60ebf2860b32b.png",
+    "static/media/rachel.png": "/static/media/rachel.1499a8fbe8a388c17eb3.png",
+    "static/media/paige.png": "/static/media/paige.9627d97d23bb27949f98.png",
+    "static/media/josh_lim.png": "/static/media/josh_lim.3141329bafe438e5d417.png",
+    "static/media/catherine.png": "/static/media/catherine.75223a1c29e32769f5f0.png",
+    "static/media/zavary.png": "/static/media/zavary.1ef747ae57e65e0cc62b.png",
+    "static/media/alessandra.png": "/static/media/alessandra.4c704f041e31dc4792c2.png",
+    "static/media/safiia.png": "/static/media/safiia.ec001dc2c5e3108057f8.png",
+    "static/media/bram.png": "/static/media/bram.42576eda98b3faaa5358.png",
+    "static/media/conner.png": "/static/media/conner.963166162847405d45d5.png",
+    "static/media/Fizz Survival Guide.pdf": "/static/media/Fizz Survival Guide.75478275cf429e61f994.pdf",
+    "static/media/background2.png": "/static/media/background2.9e947937850bc1f22f5a.png",
+    "static/media/madi.jpg": "/static/media/madi.08013a0251f6cd559717.jpg",
+    "static/media/josh_himmens.png": "/static/media/josh_himmens.9679d81f5e51cd0c0603.png",
+    "static/media/Course Review Guide.pdf": "/static/media/Course Review Guide.70e3a14320b2ebf8c3eb.pdf",
+    "static/media/The UBC Engineering Physics Student Association Constitution.pdf": "/static/media/The UBC Engineering Physics Student Association Constitution.92ea76ae82c47431d6fd.pdf",
+    "static/media/instagram-logo.png": "/static/media/instagram-logo.daa2f90c0c7157aabc31.png",
+    "static/media/fizz-logo.svg": "/static/media/fizz-logo.5fc2dfe9ab86670122a32c96ec68f2b7.svg",
+    "index.html": "/index.html",
+    "main.972c1ecd.css.map": "/static/css/main.972c1ecd.css.map",
+    "main.6e98ec78.js.map": "/static/js/main.6e98ec78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972c1ecd.css",
+    "static/js/main.6e98ec78.js"
+  ]
+}
